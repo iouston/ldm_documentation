@@ -4,6 +4,7 @@
   - [C'est quoi ?](/cestquoi)
   - [A quoi ça sert](/aquoicasert)
   - [Qui peut l'utiliser](/quipeutlutiliser)
+  - [Crédits](/credits)
 
 - **Démarrer**
-  - [Prerequisite](/prerequistite)
+  - [Considérations générales](/considerations_generales)
