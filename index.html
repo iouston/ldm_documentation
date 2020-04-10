@@ -1,96 +1,34 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <title>Deoriom Documentation</title>
-  <link rel="icon" type="image/png" href="images/dolibarr.png" />
-  <link rel="stylesheet" href="themes/vue.css">
-  <style>
-    .markdown-section > p:first-child > a {
-      display: block;
-      text-align: right;
-    }
-  </style>
+  <meta name="description" content="Documentation en ligne pour deoriom.fr">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="icon" href="_media/favicon.ico">
 </head>
 <body>
-  <div id="app">Chargmement ...</div>
-  <script>
-    window.$docsify = {
-      name: '<img src="images/dolibarr.png" height="100px">',
-      repo: 'https://github.com/iouston/deoriom_docuementation',
-      loadNavbar: true,
-      loadSidebar: true,
-      // alias: {
-      //   '/.*/_sidebar.md': '/_sidebar.md'
-      // },
-      //routerMode: 'history', // default: 'hash'
-      themeColor: '#0074d9',
-      subMaxLevel: 3,
-      auto2top: true,
-      search: {
-        maxAge: 86400000, // Expiration time, the default one day
-        //paths: [], // or 'auto'
-        placeholder: {
-          '/fr/': 'Rechercher',
-          '/': 'Search'
-        },
-        noData: {
-          '/fr/': 'Aucun résultat!',
-          '/': 'No results!'
-        },
-      },
-      pagination: {
-        previousText: '',
-        nextText: '',
-        //crossChapter: true
-      },
-      copyCode: {
-        buttonText : {
-          '/fr/': 'Copier dans le presse-papier',
-          '/': 'Copy to clipboard'
-        },
-        errorText  : {
-          '/fr/': 'Erreur',
-          '/': 'Error'
-        },
-        successText: {
-          '/fr/': 'Copié',
-          '/': 'Copied'
-        }
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.beforeEach(function (html) {
-            if (/githubusercontent\.com/.test(vm.route.file)) {
-              url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master')
-            } else {
-              url = 'https://github.com/AXeL-dev/dolibarr-modules-docs/blob/master/' + vm.route.file
-            }
-            //console.log(vm)
-            var lang = '/' + vm.route.path.split('/')[1] + '/'
-            var editText = {
-              '/fr/': 'Modifier le document',
-              '/': 'Edit Document'
-            }
-            var editHtml = '[:memo: ' + editText[(editText[lang] ? lang : '/')] + '](' + url + ' \':id=edit\')\n'
-            return editHtml + html
-          })
-        }
-      ]
-    }
-  </script>
-  <script src="lib/docsify.min.js"></script>
-  <script src="lib/search.min.js"></script>
-  <script src="lib/zoom-image.min.js"></script>
-  <script src="lib/docsify-pagination.min.js"></script>
-  <script src="lib/docsify-copy-code.min.js"></script>
-  <!-- <script src="lib/docsify-themeable.min.js"></script> -->
-  <script src="lib/emoji.min.js"></script>
-  <script src="lib/prism-php.min.js"></script>
+  <div id="app"></div>
 </body>
+<script>
+  window.$docsify = {
+    repo: 'iouston/deoriom_documentation',
+    name: 'deoriom_documentation',
+    auto2top: true,
+    loadSidebar: true,
+    coverpage: true,
+    search: {
+      noData: {
+        '/': 'No results!'
+      },
+      paths: 'auto',
+      placeholder: {
+        '/': 'Search'
+      }
+    }
+  }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </html>
