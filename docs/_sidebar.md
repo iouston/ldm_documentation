@@ -5,15 +5,13 @@
   - [A quoi ça sert](/a_quoi_ca_sert)
   - [Qui peut l'utiliser](/qui_peut_utiliser)
   - [Crédits](/credits)
-
 - **Démarrer**
   - [Considérations générales](/considerations_generales)
   - [Se connecter](/se_connecter)
-
 - **Utilisation avancée**
-
 - **Questions Fréquentes**
-
 - **Assistance**
 	- [Contacter l'assistance](/contact_assistance)
+
+	
 
