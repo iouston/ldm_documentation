@@ -1,4 +1,4 @@
-![logo](_image/lock.png)
+![logo](image/lock.png)
 
 # Deoriom Documentation <small>beta - 04/2020</small>
 
@@ -12,4 +12,4 @@
 [Get Started](#main)
 
 <!-- background image -->
-![](_media/bg.jpg)
+![](image/bg.jpg)
