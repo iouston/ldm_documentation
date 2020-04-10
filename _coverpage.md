@@ -1,4 +1,4 @@
-![logo](image/lock.png)
+![logo](_media/lock.png)
 
 # Deoriom Documentation <small>beta - 04/2020</small>
 
@@ -9,7 +9,7 @@
 - Highly configurable
 
 [Accéder à Deoriom](https://www.deoriom.fr)
-[Get Started](#main)
+[Get Started](#app)
 
 <!-- background image -->
-![](image/bg.jpg)
+![](_media/bg.jpg)
