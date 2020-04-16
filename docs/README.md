@@ -1,3 +1,4 @@
-# deoriom_documentation
+# LDM Documentation
 
-Compile toute la documentation pour utiliser le système informatisé de gestion des offrandes de messe accessible sur https://wwww.deoriom.fr
+Compile toute la documentation pour utiliser le système de gestion de LDM Équipement. 
+→ Plus d'information sur https://www.ldmequipement.fr 
