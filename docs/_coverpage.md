@@ -6,4 +6,4 @@
 Système de gestion pour LDM Équipement
 
 [Accéder à LDM](https://gestion.sc16054.srv.odns.fr/dolibarr_ldm/)
-[Lire la documentation](#app)
+[Lire la documentation](#ldm-documentation)
