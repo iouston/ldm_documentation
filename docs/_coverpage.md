@@ -1,12 +1,9 @@
-![logo](_media/church64.png)
+![logo](_media/logo.png)
 
-# Deoriom Documentation 
-<small>beta - 04/2020</small>
+# LDM Documentation 
+<small>version du 17 avril 2020</small>
 
-> Deo RIOM - Registre Informatique Offrandes de Messe
+Système de gestion pour LDM Équipement
 
-[Accéder à Deoriom](https://www.deoriom.fr)
-[Lire la documentation](.app-name)
-
-<!-- background image -->
-![](_media/bg.jpg)
+[Accéder à LDM](https://gestion.sc16054.srv.odns.fr/dolibarr_ldm/)
+[Lire la documentation](#app)
