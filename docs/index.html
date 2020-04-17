@@ -6,6 +6,7 @@
   <meta name="description" content="Documentation en ligne pour deoriom.fr">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
   <link rel="icon" href="_media/favicon.ico">
   <style>
   :root {
@@ -46,15 +47,21 @@
       }
     },
     tabs: {
-    persist    : true,      // default
-    sync       : true,      // default
-    theme      : 'classic', // default
-    tabComments: true,      // default
-    tabHeadings: true       // default
-    },
+      persist    : true,      // default
+      sync       : true,      // default
+      theme      : 'classic', // default
+      tabComments: true,      // default
+      tabHeadings: true       // default
+      },
     flexibleAlerts: {
       style: 'flat'
     },
+    toc: {
+      scope: '.markdown-section',
+      headings: 'h1, h2, h3, h4, h5, h6',
+      title: 'Table des matières',
+    },
+
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -62,4 +69,5 @@
 <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
 </html>
