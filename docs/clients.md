@@ -24,7 +24,7 @@ Depuis le menu horizontal haut, aller sur 'Tiers'
 * Valider votre fiche en cliquant sur 'Créer tiers'
 * Créer ensuite les contacts associés à ce tiers
 
-> [!COMMENT]
+> [!WARNING]
 > Attention, le numéro de Siret est obligatoire pour ajouter un tiers. Il permet de vérifier qu'il n'y a pas de doublon dans la base…(en mode semi automatique, le siret est récupéré automatiquement)
 
 <!-- tabs:end -->
@@ -38,6 +38,7 @@ Depuis le menu horizontal haut, aller sur 'Tiers'
 * Lorsque vous devez créer un client pour un particulier
 * Vous devez ch oisir tout en haut de la fiche création du client "Créer un tiers + un contact/adresse/fils"
 * En faisant cela, dolibarr préselectionne le type "particulier" pour le champ type de tiers
+
 > [!NOTE]
 > Le numéro de siret n'est alors plus obligatoire, même, si le champ reste en gras.
 
@@ -46,7 +47,7 @@ Depuis le menu horizontal haut, aller sur 'Tiers'
 * Créer un client en mode manuel et sélectionner le type d'entreprise Particulier
 * Dans ce cas le numéro de Siret n'est plus obligatoire
 
-> [!ACHTUNG]
+> [!DANGER]
 > Cette fonction n'est à utiliser que dans le cas de la création d'entreprise
 
 <!-- tabs:end -->

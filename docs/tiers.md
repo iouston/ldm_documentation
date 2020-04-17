@@ -15,6 +15,18 @@
 		** Il y a au moins un contact : Julien Marchand, la personne physique
 		** Il pourrait y avoir plusieurs contacts : le contact de Madame, le nom des enfants, etc…Imaginez un abonnement à la médiathèque, une carte d’abonnement facturée à Julien Marchand, permet à Madame Marchand et à ses enfants d’emprunter également des livres.
 
-* Bref, s’il faut retenir simplement quelque chose : **Il faut toujours qu’un contact soit relié à un tiers**
+> [!TIP]
+> Bref, s’il faut retenir simplement quelque chose : **Il faut toujours qu’un contact soit relié à un tiers**
+
+## Fusionner des tiers
+
+Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusionner des tiers, selon vos permissions.
+* Dolibarr permet de fuisionner deux doublons de tiers pour n'en conserver qu'un seul
+* Rendez-vous sur la fiche d'un tiers
+* Cliquez sur fusionner et choisissez dans la fenêtre d'invite le tiers avec lequel fusionner.
+
+> [!WARNING]
+> ATTENTION, la fusion se fait depuis le tiers duquel vous l'exécutez, c'est ce tiers qui sera enrichi avec les informations de l'autre tiers.
+
 
 
