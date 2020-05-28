@@ -28,5 +28,30 @@ Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusio
 > [!WARNING]
 > ATTENTION, la fusion se fait depuis le tiers duquel vous l'exécutez, c'est ce tiers qui sera enrichi avec les informations de l'autre tiers.
 
+## Attribution d'un commercial à un tiers
+
+* A la création d'un tiers, le commercial qui lui est dédié est automatiquement lié en fonction du département.
+* Si vos droits vous le permettent, il est également possible d'ajouter d'autres comptes utilisateurs (commercial) à un tiers. 
+* Pour cela, rendez-vous sur la fiche du tiers. De là, cliquez sur le bouton "modifier" situé à droite de "Commerciaux". De cet écran, vous pourrez ajouter autant de commerciaux que souhaité.
+
+> [!WARNING]
+> Attention toutefois, chaque commercial lié a la possibilité de voir la totalité du client, y compris les devis réalisés pour ce client par d'autres commerciaux
+
+## Attribuer un ou plusieurs départements à un commercial
+
+* Si vous en avez les droits, allez dans la fiche utilisateur
+* Depuis cette fiche, allez dans l'onglet 'Départements'
+* De là, ajouter ou supprimer des départements depuis la liste déroulante
+![commercial_ajouter_dpt](_media/commercial_ajouter_dpt.jpg)
+
+## Créer un compte utilisateur pour un client
+* Il est possible de créer un compte client pour donner un accès au client.
+* Le client peut alors accéder à tous les éléments le concernant depuis le site internet www.ldmequipement.fr/portail
+* Un tiers et un contact doivent être enregistré.
+* Depuis la fiche du contact concerné, cliquer sur "Créer un compte utilisateur"
+* Attribuer un login (prenom.nom en minuscule) et un mot de passe
+* Classer l'utilisateur créé dans le groupe utilisateur "Accès portail client"
+* Une fois que tout cela est fait, envoyer le mot de passe par mail à l'utilisateur depuis sa fiche utilisateur ainsi que l'adresse de connexion au portail
+* C'est tout bon. Bravo !
 
 

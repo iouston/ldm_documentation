@@ -1,10 +1,16 @@
  # Devis
+ 
+## Liste des devis
 
- Le projet est le dossier virtuel dans lequel nous allons placer tous les éléments d'une affaire
- Dans le logiciel LDM sofware, c'est la notion de chantier qui était utilisée.
- Désormais, il faut considérer qu'un chantier est l'équivalent d'un projet.
- Pour un projet, il est possible **d'ajouter plusieurs devis différents, et adressés à des clients différents !**
-
+* Vous pouvez avoir une vue d'ensemble sur tous les devis depuis commercial / liste
+* Dans cette liste, vous avez la possibilité de voir sur la droite "l'état" du devis.
+* Un devis brouillon est un devis qui est encore en cours de travail. Il ne doit pas être envoyé au client
+* Un devis "ouvert" est un devis qui est finalisé et qui a été envoyé au client.
+* Un devis "signé" est un devis qui a été validé. L'étape suivante sera de créer une commande
+* Un devis "Non signé" est un devis qui a été perdu.
+* Options de la vue d'ensemble :
+	- La vue d'ensemble des devis permet de rechercher des devis en pariculier grace aux filtres présents en haut de colonne.
+	- Vous pouvez également afficher des colonnes supplémentaires en sélectionnant les colonnes souhaitées à partir de l'icone située à droite de l'état.
 
 ## Créer un devis
 
@@ -24,6 +30,7 @@ En passant par le tiers
 > Un devis doit obligatoirement être rattaché à un projet, si ce n'est pas le cas, vous ne pourrez pas valider votre devis.
 
 #### ** En passant par le projet **
+
 * En passant par le projet
 * Aller dans le projet concerné par le devis
 * Cliquer sur l'onglet 'Vue d'ensemble'
@@ -89,6 +96,7 @@ En passant par le tiers
 
 
 ## Ajouter un produit en négatif
+
 * Lorsque vous éditez un devis, il peut vous arrivez de devoir ajouter un produit en négatif
 * C'est par exemple le cas d'un allongement
 * Au moment de l'ajout, dolibarr ne tolère pas un produit en négatif
@@ -127,6 +135,7 @@ En passant par le tiers
 * La page Produits/Services > produits > produits sans poids affiche tous les produits de la base dont le poids n'est pas connu.
 
 ## Connaitre le poids total du devis
+
 * Depuis l'écran d'édition du devis, vous pouvez à tout moment connaitre le poids total du devis. Cette information est située à gauche dans les derniers items généraux du devis
 * Cette mention n'apparait pas sur le document pdf (notez que ce peut être fait si le besoin est présent)
 * Lorsque vous ajoutez un produit, le poids de ce produit est automatiquement ajouté au poids total du devis.
@@ -149,6 +158,7 @@ En passant par le tiers
 > Attention, le calcul du frais de port se fait en fonction des poids de chaque produit et non pas du poids total du devis (qui est là pour information). Il est donc important que le poids de chaque produit référencé dans le logiciel soit connu (cf. produits sans poids) 
 
 ## Cloner un devis
+
 * Depuis la page d'édition, le bouton cloner un devis permet de dupliquer un devis, tout en l'affectant au même client ou à un autre client.
 * Si la duplication du devis a pour objectif de faire une autre proposition au même client, il est souhaitable de plutôt faire une version de devis
 * Le clonage d'un devis est donc intéressant pour proposer rapidement un devis similaire, sur un même chantier à un autre client.
@@ -156,6 +166,7 @@ En passant par le tiers
 * Valider, puis compléter les champs et le formulaire comme pour un autre devis.
 
 ## Valider un devis
+
 * Tant que le devis est en cours d'édition, il est au statut : "Brouillon – à valider"
 * Le devis est alors en cours d'édition et ne doit pas être présenté au client. D'ailleurs un filigrane "Brouillon – ne pas diffuser" apparait sur le devis si vous éditez un fichier .pdf
 * Tant que le devis est au statut brouillon, il a un numéro provisoire : PROV2587.
@@ -166,6 +177,7 @@ En passant par le tiers
 * Le pdf généré pour un devis validé n'a plus de filigrane
 
 ## Archiver – faire une autre version d'un devis
+
 * Lorsque un devis a été validé, de nouveaux boutons apparaissent. Parmi ces boutons, un bouton Archiver.
 * Le bouton archiver permet de mettre en mémoire une ou plusieurs versions de devis de façon à proposer une nouvelle version du devis au client.
 > [!TIP]
@@ -185,6 +197,7 @@ En passant par le tiers
 > * Il faut donc être vigilant, pour ne pas écraser son travail.
 
 ## Envoyer par mail un devis
+
 * Une fois le devis édité et conforme, il faut encore le faire parvenir au client
 * **Il est désormais obligatoire d'envoyer les devis depuis l'interface de dolibarr**.
 * De cette façon, le devis envoyé est intégré automatiquement au suivi de la relation client.
@@ -197,21 +210,25 @@ En passant par le tiers
 * Vous pouvez personnaliser le contenu du mail et ajouter des fichiers joints, ainsi qu'automatiquement la documentation des produits (à condition que la documentation des produits figure dans les pièces jointes du produit concerné)
 
 ## Clôturer un devis
+
 * Pour clôturer un devis, rendez-vous sur la page d'édition du devis concerné.
 * Cliquez sur le bouton Accepter/Refuser
 * Sous la zone d'édition du devis, positionner le statut du devis à signée (devis gagné) ou non signé (devis perdu).
 * La note est une note privée qui permet de préciser un élément de la confirmation : date de la confirmation / mode de confirmation / retenue d'une option / accord de livraion / paiement, etc… toute information qui est à faire suivre dans les étapes suivantes du devis
 
 ## Découper un devis
+
 * Le bouton découper sur l'écran d'édition d'un devis permet de scinder un devis en deux propositions différentes.
 * Par le biais de ce bouton, il est également possible de copier certaines lignes d'un devis vers un autre devis
 * Il est également possible de sélectionner plusieurs lignes d'un devis en une seule fois.
 
 ## Supprimer plusieurs lignes d'un devis
+
 * En cliquant sur le bouton "découper" en bas de la zone d'édition du devis, un formulaire vous permet de sélectionner plusieurs lignes de ce devis
 * Vous pouvez alors demander au logiciel de supprimer les lignes sélectionnées
 
 ## Afficher / masquer les marges
+
 * Par défaut les marges sur devis sont masquées
 * Vous n'avez peut-être pas l'autorisation de les consulter
 * Peut être que cet onglet est masqué pour des questions de confidentialité. Par exemple, si vous travaillez sur le devis avec un client.
@@ -228,6 +245,7 @@ En passant par le tiers
 ![marge_ecran](_media/marge_ecran.jpg)
 
 ## Appliquer une remise ou une augmentation sur le devis
+
 * Vous pouvez, si vos droits utilisateurs vous le permettent appliquer des réductions sur chaque ligne de produit. Si cela est efficace pour des remises au détail, c'est peu pratique pour appliquer une remise globale.
 * Il est cependant possible d'appliquer une réduction ou une augmentation de façon globale.
 * Pour cela, cliquez depuis la zone d'édition du devis sur le bouton "Réduire/augmenter prix HT"
@@ -246,6 +264,7 @@ En passant par le tiers
 ![reduction_ecran](_media/reduction_ecran.jpg)
 
 ## Gérer les contacts du devis
+
 * Lorsque vous éditez un devis au client, par défaut le devis est édité pour la société, sans indiquer le contact concerné.
 * Pour remédier à cela, depuis le devis, cliquer sur l'onglet 'contact/adresse'.
 * Sélectionner le contact concerné et le type de contact. En l'occurrence 'contact client suivi proposition'
@@ -254,11 +273,13 @@ En passant par le tiers
 * Vous pouvez également définir un contact par défaut au niveau de la fiche du tiers pour ne pas avoir à le faire à chaque fois. (cf. contact par défaut)
 
 ## Réaliser un devis, une commande en autoliquidation de TVA
+
 * Les devis en autoliquidation de TVA sont à réaliser dans le cadre d'une sous traitance dans le cadre d'un marché
 * Il suffit de cocher la case 'Autoliquidation TVA' sur l'écran du devis ou l'écran de la commande pour l'utiliser.
 * Si cette option est cochée, le devis ou la commande générée n'afficheront pas de TVA et une phrase qui précise le régime de l'autoliquidation de TVA sera affiché.
 
 ## Générer un devis dans une autre langue
+
 * En cas de besoin, il est possible de générer un devis dans un autre langue.
 * Attention toutefois à utiliser cette fonctionnalité avec parcimonie. 
 * En effet, l'intégralité du devis ne sera pas traduit.
