@@ -17,6 +17,7 @@
   - [Commandes Fournisseur](/commandes_fournisseur)       
 - **Utilisation avancée**
   - [Frais transport](/module_frais_transport)
+  - [Augmentation réduction](/module_augmentation_reduction)
 - **Questions Fréquentes**
 - **Assistance**
 	- [Contacter l'assistance](/contact_assistance)

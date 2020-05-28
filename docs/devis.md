@@ -126,6 +126,18 @@ En passant par le tiers
 * Idéalement, et si vous en avez la permission, aller dans la fiche du produit, et indiquez son poids. Sinon informez votre responsable.
 * La page Produits/Services > produits > produits sans poids affiche tous les produits de la base dont le poids n'est pas connu.
 
+## Connaitre le poids total du devis
+* Depuis l'écran d'édition du devis, vous pouvez à tout moment connaitre le poids total du devis. Cette information est située à gauche dans les derniers items généraux du devis
+* Cette mention n'apparait pas sur le document pdf (notez que ce peut être fait si le besoin est présent)
+* Lorsque vous ajoutez un produit, le poids de ce produit est automatiquement ajouté au poids total du devis.
+* Si le poids d'un produit n'est pas renseigné, un pictogramme d'alerte apparait et vous indique que le poids de ce produit n'est pas connu.
+
+> [!WARNNG]
+> Ce pictogramme doit permettre de corriger cette information dans la base. Il ne devrait donc pas y avoir ce genre de pictogramme dans le logiciel. Rappelez-vous que si cette information manque, les frais de port risquent d'être sous-estimés. 
+
+* Vous pouvez à tout moment corriger le poids total d'un devis en cliquant sur l'icone de modification située à droite du champ : 'Poids total du devis'
+![devis_poids](_media/devis_poids.jpg)
+
 ## Calculer les frais de port
 
 * Depuis l'écran d'édition des devis, cliquez sur le bouton : 'Frais de port'
@@ -156,9 +168,10 @@ En passant par le tiers
 ## Archiver – faire une autre version d'un devis
 * Lorsque un devis a été validé, de nouveaux boutons apparaissent. Parmi ces boutons, un bouton Archiver.
 * Le bouton archiver permet de mettre en mémoire une ou plusieurs versions de devis de façon à proposer une nouvelle version du devis au client.
-* Grâce à cette fonctionnalité, il ne doit pas y avoir de devis différents, correspondants au même chantier et au même client…
+> [!TIP]
+> Grâce à cette fonctionnalité, il ne doit pas y avoir de devis différents, correspondants au même chantier et au même client…
 * La version du devis sur laquelle vous travaillez est indiquée dans l'onglet du devis. Ce numéro de version apparait également sur le pdf du devis généré
- 
+![devis_version](_media/devis_version.jpg) 
 * À tout moment, vous pouvez basculer sur une autre version archivée de votre devis.
 * Pour cela, sélectionner la version du devis à visualiser, puis, s'il s'agit bien de la version que vous souhaitez restaurer, cliquez sur "restaurer"
 
@@ -171,14 +184,92 @@ En passant par le tiers
 > * Mon devis est remplacé par les éléments de la version n°2 mais je suis toujours sur la version n°4 du devis.
 > * Il faut donc être vigilant, pour ne pas écraser son travail.
 
+## Envoyer par mail un devis
+* Une fois le devis édité et conforme, il faut encore le faire parvenir au client
+* **Il est désormais obligatoire d'envoyer les devis depuis l'interface de dolibarr**.
+* De cette façon, le devis envoyé est intégré automatiquement au suivi de la relation client.
+* Cela permet également à une autre personne de l'entreprise d'accéder rapidement à cette information
+* Une fois le devis au statut "Validé" le bouton "envoyer par mail apparait.
+* Si vous cliquez dessus, un formulaire d'envoi de mail apparait sous le devis
+* Le devis au format pdf est automatiquement joint au mail qui sera envoyé
+* Vous pouvez choisir un modèle d'email dans le menu déroulant prévu à cet effet.
+* Il est possible de personnaliser les modèles de mail depuis : Accueil > configuration > emails > modèle de courriel (selon les permissions que vous avez)
+* Vous pouvez personnaliser le contenu du mail et ajouter des fichiers joints, ainsi qu'automatiquement la documentation des produits (à condition que la documentation des produits figure dans les pièces jointes du produit concerné)
 
+## Clôturer un devis
+* Pour clôturer un devis, rendez-vous sur la page d'édition du devis concerné.
+* Cliquez sur le bouton Accepter/Refuser
+* Sous la zone d'édition du devis, positionner le statut du devis à signée (devis gagné) ou non signé (devis perdu).
+* La note est une note privée qui permet de préciser un élément de la confirmation : date de la confirmation / mode de confirmation / retenue d'une option / accord de livraion / paiement, etc… toute information qui est à faire suivre dans les étapes suivantes du devis
 
+## Découper un devis
+* Le bouton découper sur l'écran d'édition d'un devis permet de scinder un devis en deux propositions différentes.
+* Par le biais de ce bouton, il est également possible de copier certaines lignes d'un devis vers un autre devis
+* Il est également possible de sélectionner plusieurs lignes d'un devis en une seule fois.
 
+## Supprimer plusieurs lignes d'un devis
+* En cliquant sur le bouton "découper" en bas de la zone d'édition du devis, un formulaire vous permet de sélectionner plusieurs lignes de ce devis
+* Vous pouvez alors demander au logiciel de supprimer les lignes sélectionnées
 
+## Afficher / masquer les marges
+* Par défaut les marges sur devis sont masquées
+* Vous n'avez peut-être pas l'autorisation de les consulter
+* Peut être que cet onglet est masqué pour des questions de confidentialité. Par exemple, si vous travaillez sur le devis avec un client.
+* L'affichage des marges rend visible un écran général de marge ainsi que 2 colonnes supplémentaires pour chaque ligne du devis.
+* Pour afficher les marges d'un devis, cliquer depuis l'écran d'édition d'un devis sur le bouton 'afficher les marges'.
+* A l'inverse, cliquer sur le bouton 'cacher les marges' pour faire disparaitre ces éléments.
 
+> [!TIP]Pour rappel :
+> * Marge sur le Prix de Revient = Prix de vente - Prix de revient défini sur la fiche produit 
+> * Taux de marque = Marge / Prix de vente
+> * Si le prix d'achat/revient n'est pas défini dans la fiche du produit alors la marge sera de zéro sur la ligne.
 
+![marge_bouton](_media/marge_bouton.jpg) 
+![marge_ecran](_media/marge_ecran.jpg)
 
+## Appliquer une remise ou une augmentation sur le devis
+* Vous pouvez, si vos droits utilisateurs vous le permettent appliquer des réductions sur chaque ligne de produit. Si cela est efficace pour des remises au détail, c'est peu pratique pour appliquer une remise globale.
+* Il est cependant possible d'appliquer une réduction ou une augmentation de façon globale.
+* Pour cela, cliquez depuis la zone d'édition du devis sur le bouton "Réduire/augmenter prix HT"
+* Une fenêtre modale apparait alors dans laquelle il vous suffit de préciser le montant à la hausse ou à la baisse du pourcentage global à appliquer.
 
+> [!TIP]
+> Attention, il faut placer le signe + ou le signe – devant le pourcentage qui sera appliqué.
+
+![reduction_modale](_media/reducation_modale.jpg)
+
+* Il est possible d'ajouter successivement plusieurs augmentations et/ou réductions globale sur chaque devis.
+À tout moment vous pouvez retrouver les augmentations et réductions qui ont été appliquées sur le devis. Pour cela rendez-vous dans l'onglet "Réductions/augmentations"
+* Il est possible de revenir en arrière en supprimant la dernière remise/augmentation appliquée.
+* Certains produits sont exclus de la réduction ou de l'augmentation. Comme la pose ou le transport
+
+![reduction_ecran](_media/reduction_ecran.jpg)
+
+## Gérer les contacts du devis
+* Lorsque vous éditez un devis au client, par défaut le devis est édité pour la société, sans indiquer le contact concerné.
+* Pour remédier à cela, depuis le devis, cliquer sur l'onglet 'contact/adresse'.
+* Sélectionner le contact concerné et le type de contact. En l'occurrence 'contact client suivi proposition'
+* Le type de contact permet d'adresser les différents documents à différentes personnes (facture, livraison, etc…)
+* Vous devez également paramétrer un contact de 'suivi proposition', généralement, il s'agit de l'agent commercial, et le contact 'etude_proposition'. Normalement ce contact se met automatiquement avec votre nom mais vous pouvez le modifier si nécessaire
+* Vous pouvez également définir un contact par défaut au niveau de la fiche du tiers pour ne pas avoir à le faire à chaque fois. (cf. contact par défaut)
+
+## Réaliser un devis, une commande en autoliquidation de TVA
+* Les devis en autoliquidation de TVA sont à réaliser dans le cadre d'une sous traitance dans le cadre d'un marché
+* Il suffit de cocher la case 'Autoliquidation TVA' sur l'écran du devis ou l'écran de la commande pour l'utiliser.
+* Si cette option est cochée, le devis ou la commande générée n'afficheront pas de TVA et une phrase qui précise le régime de l'autoliquidation de TVA sera affiché.
+
+## Générer un devis dans une autre langue
+* En cas de besoin, il est possible de générer un devis dans un autre langue.
+* Attention toutefois à utiliser cette fonctionnalité avec parcimonie. 
+* En effet, l'intégralité du devis ne sera pas traduit.
+* Seuls les items connus de dolibarr et pour lesquels il existe une traduction seront traduits.
+* Une traduction des conditions générales de vente a été adjointe. Donc si vous créez un devis en anglais (royaume unis), le devis sera en anglais, ainsi que les CGV. Il est possible de faire la même chose pour d'autres langues.
+* Pour générer un devis dans une autre langue, rendez-vous à côté du modèle de document et sélectionner la langue désirée dans le menu déroulant correspondant.
+* Générer votre document.
+
+> [!WARNING]
+> Attention, les langues nécessitant un alphabet particulier (arabe, chinois, japonais, etc…) ne sont pas supportées
+![devis_autre_langue](_media/devis_autre_langue.jpg)
 
 
 
