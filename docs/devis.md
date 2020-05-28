@@ -119,6 +119,24 @@ En passant par le tiers
 > [!WARNING]
 > Attention il faut passer par l'icone 'modifier' et non pas la modification rapide.
 
+## Produits sans poids
+
+* Si un produit a été référencé sans son poids et que vous l'ajoutez un devis, un pictogramme d'alerte s'affiche à côté du produit concerné. Ce pictogramme vous précise que le poids de ce produit n'est pas connu et que cela pourrait fausser la tarification des frais de port…
+* Vous pouvez à tout moment indiquer manuellement le poids total du devis.
+* Idéalement, et si vous en avez la permission, aller dans la fiche du produit, et indiquez son poids. Sinon informez votre responsable.
+* La page Produits/Services > produits > produits sans poids affiche tous les produits de la base dont le poids n'est pas connu.
+
+## Calculer les frais de port
+
+* Depuis l'écran d'édition des devis, cliquez sur le bouton : 'Frais de port'
+* Une fenêtre modale apparait et vous invite à sélectionner la zone de livraison. Par défaut la zone de livraison concerne le département de l'adresse du client concerné.
+* Une seconde fenêtre apparait et vous propose le tarif le plus adapté en fonction des transporteurs disponibles.
+* Un produit Frais de transport est ajouté au devis avec la valeur correspondante.
+* Il s'agit d'un produit lambda, vous pouvez donc, si vous en avez la permission, modifier son tarif, sa quantité, appliquer une réduction, etc…
+> [!WARNING]
+> Attention, le calcul du frais de port se fait en fonction des poids de chaque produit et non pas du poids total du devis (qui est là pour information). Il est donc important que le poids de chaque produit référencé dans le logiciel soit connu (cf. produits sans poids) 
+
+
 
 
 
