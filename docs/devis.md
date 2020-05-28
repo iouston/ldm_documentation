@@ -136,6 +136,43 @@ En passant par le tiers
 > [!WARNING]
 > Attention, le calcul du frais de port se fait en fonction des poids de chaque produit et non pas du poids total du devis (qui est là pour information). Il est donc important que le poids de chaque produit référencé dans le logiciel soit connu (cf. produits sans poids) 
 
+## Cloner un devis
+* Depuis la page d'édition, le bouton cloner un devis permet de dupliquer un devis, tout en l'affectant au même client ou à un autre client.
+* Si la duplication du devis a pour objectif de faire une autre proposition au même client, il est souhaitable de plutôt faire une version de devis
+* Le clonage d'un devis est donc intéressant pour proposer rapidement un devis similaire, sur un même chantier à un autre client.
+* Pour cela, cliquer sur le bouton "Cloner" et rechercher le nouveau client.
+* Valider, puis compléter les champs et le formulaire comme pour un autre devis.
+
+## Valider un devis
+* Tant que le devis est en cours d'édition, il est au statut : "Brouillon – à valider"
+* Le devis est alors en cours d'édition et ne doit pas être présenté au client. D'ailleurs un filigrane "Brouillon – ne pas diffuser" apparait sur le devis si vous éditez un fichier .pdf
+* Tant que le devis est au statut brouillon, il a un numéro provisoire : PROV2587.
+* Lorsque vous cliquez sur "Valider", le statut du devis change. Il prend alors un numéro définitif : D201801245 et unique.
+* Avant de valider votre devis vous devez vérifier qu'aucune ligne du devis, sur l'écran d'édition, ne comporte un pictogramme d'alerte.
+* Si tel est le cas, un message d'avertissement, qui n'empêche pas la validation du devis s'affiche
+* Il est possible de modifier un devis validé en cliquant sur le bouton "Modifier"
+* Le pdf généré pour un devis validé n'a plus de filigrane
+
+## Archiver – faire une autre version d'un devis
+* Lorsque un devis a été validé, de nouveaux boutons apparaissent. Parmi ces boutons, un bouton Archiver.
+* Le bouton archiver permet de mettre en mémoire une ou plusieurs versions de devis de façon à proposer une nouvelle version du devis au client.
+* Grâce à cette fonctionnalité, il ne doit pas y avoir de devis différents, correspondants au même chantier et au même client…
+* La version du devis sur laquelle vous travaillez est indiquée dans l'onglet du devis. Ce numéro de version apparait également sur le pdf du devis généré
+ 
+* À tout moment, vous pouvez basculer sur une autre version archivée de votre devis.
+* Pour cela, sélectionner la version du devis à visualiser, puis, s'il s'agit bien de la version que vous souhaitez restaurer, cliquez sur "restaurer"
+
+> [!WARNING]
+> Attention, lorsque vous restaurer un devis, vous ne retournez pas sur le numéro de devis précédent, vous REMPLACEZ la version courante par la version archivée
+> * Par exemple : Je travaille sur la version N°3 d'un devis
+> * J'archive cette version (de façon à la conserver), je passe donc sur la version N°4
+> * Le client me précise qu'il part finalement sur la version n°2
+> * Je sélectionne la version n°2 et après l'avoir visualisé, je la restaure
+> * Mon devis est remplacé par les éléments de la version n°2 mais je suis toujours sur la version n°4 du devis.
+> * Il faut donc être vigilant, pour ne pas écraser son travail.
+
+
+
 
 
 
