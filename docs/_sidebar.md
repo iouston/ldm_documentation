@@ -18,6 +18,7 @@
   - [Factures](/factures)
   - [Planning général](/planning_general)       
 - **Utilisation avancée**
+  - [Devis avancés](/devis_avances)
   - [Frais transport](/module_frais_transport)
   - [Augmentation réduction](/module_augmentation_reduction)
 - **Questions Fréquentes**
