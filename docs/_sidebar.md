@@ -15,7 +15,8 @@
   - [Devis](/devis)
   - [Commandes](/commandes)
   - [Commandes Fournisseur](/commandes_fournisseur)
-  - [Factures](/factures)       
+  - [Factures](/factures)
+  - [Planning général](/planning-general)       
 - **Utilisation avancée**
   - [Frais transport](/module_frais_transport)
   - [Augmentation réduction](/module_augmentation_reduction)
