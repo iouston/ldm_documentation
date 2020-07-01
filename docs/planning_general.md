@@ -8,7 +8,7 @@ Par défaut, le planning général s'affiche à partir de la semaine courante
 * Le planning a des barres de défilement horizontales et verticales.
 * Pour défiler horizontalement, vous pouvez, tout en maintenant la touche Shift (MAJ), faire défiler la roulette de votre souris
 
-> [!NOTE]
+> [!TIP]
 > Mieux, cliquer avec la molette de votre souris. Vous pouvez ensuite déplacer horizontalement l'écran en déplaçant votre souris.
 
 ## Configurer le planning général 

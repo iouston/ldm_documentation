@@ -9,4 +9,27 @@
 > [! WARNINGS]
 > Attention, le détail du devis hors portefeuille n'est pas accessible directement en ligne. Il faut en faire la demande aux commerciaux internes de LDM
 
+## Récap Fourniture Pose Transport Négoce (RécapFPTN)
+* Sur l'écran d'édition du devis, un module vous détaille les informations récapitulative sur le montant de la fourniture, de la pose, du transport et du négoce
+* Ces informations sont automatiquement compilées à partir des catégories de produit dans lesquel le produit en question a été catalogué
+* Pour ce qui concerne le négoce, il y a deux cas de figure à prendre en compte
 
+<!-- tabs:start -->
+
+#### ** C'est un produit référencé **
+
+Depuis le menu horizontal haut, aller sur 'Tiers'
+* Dans ce cas pas de problème.
+* Si le produit a été référencé dans la catégorie décompté comme négoce, il n'y a rien à faire
+
+#### ** C'est un produit libre **
+
+Dans ce cas, sans précision de votre part, le produit sera compté comme fourniture
+* Au moment où vous ajoutez le produit libre, vous disposez d'une liste de sélection permettant de préciser comment ce produit devra être décompté.
+* En sélectionnant négoce à ce moment, le produit libre sera décompté comme tel
+![compter en négoce](_media/produit_libre_negoce.jpg)
+
+<!-- tabs:end -->
+
+
+## Paramétrer le Récap FPTN
