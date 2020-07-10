@@ -216,6 +216,36 @@ En passant par le tiers
 * Sous la zone d'édition du devis, positionner le statut du devis à signée (devis gagné) ou non signé (devis perdu).
 * La note est une note privée qui permet de préciser un élément de la confirmation : date de la confirmation / mode de confirmation / retenue d'une option / accord de livraion / paiement, etc… toute information qui est à faire suivre dans les étapes suivantes du devis
 
+## Ajouter une note à l'intention des collègues
+Les notes ne doivent pas prendre le pas sur la gestion de la relation avec le client. Le but de la note est de préciser un détail sur un élément donné et précis. Le suivi de la relation (cf. Suivi de la relation client) est plus général et doit permettre à un collègue, de connaitre et comprendre qui est ce client, et ce que l'on fait avec lui. C'est une transmission écrite de la mémoire et de la connaissance de notre historique avec le client.
+* Il est possible d'ajouter une note à toutes le entités de dolibarr.
+* Deux types des notes sont disponibles par défaut : la note privée et la note publique
+* La note publique peut potentiellement être affichée à l'extérieur de dolibarr sur un document généré. Il faut donc utiliser cette note avec prudence et ne placer dans cette note que des informations non confidentielles.
+* La note privée n'est accessible qu'aux personnes ayant un accès à dolibarr. C'est donc la note privée qu'il faut privilégier pour la transmission d'information entre collègues.
+* La note privée peut s'afficher d'elle-même à différentes étapes du process. Par exemple :
+* Lors de la validation de son devis par un client, ce dernier m'informe que la commande est à adresser Madame Truc.
+* Si je rentre cette information dans la note privée du devis, cette information s'affichera à l'utilisateur lors de la saisie de la commande du client.
+![notes](_media/notes.jpg) 
+
+## Ajouter un post-it à l'écran
+* Un type de note 'Post-it' est également disponible sur certains écrans du logiciel
+* Une icone 'Post-it' est disponible en haut à droite, à proximité de votre zone de connexion.
+* Un clic sur cette icone permet de générer un post-it. Vous pouvez compléter la note et la placer à l'endroit de votre choix sur votre écran.
+* La note ne sera visible que sur cet écran.
+* Vous pouvez redimensionner la note depuis l'angle droite/bas
+* Par défaut, la note (en jaune)  n'est visible que par l'utilisateur qui l'a créée.
+* Vous pouvez partager la note à l'ensemble de vos collègues en cliquant sur la clé. La note passe alors en bleue, le post-it apparait pour tous les utilisateurs sur cet élément
+* Vous cliquez encore, le post-it est partagée, la note apparait en vert à tous les utilisateurs et sur tous les éléments du même type.
+* La note post-it peut être supprimée depuis l'icône de la corbeille (visible lors du survol de la note).
+* Les notes de types post-it n'apparaitront pas à d'autres étapes du process (comme dans l'exemple précédemment cité entre un devis et une commande).
+![post-it](_media/postit.jpg) 
+
+## Ajouter des pièces jointes
+* Depuis l'onglet fichiers joints, vous pouvez ajouter des fichiers au devis en cours
+* Il est possible d'ajouter plusieurs fichiers simultanément, directement depuis l'écran, simplement en cliquant/déplaçant les fichiers vers la zone de transfert
+* Par défaut dolibarr conserve le nom du fichier. Mais vous pouvez cocher la case "sauver le fichier…" si vous souhaitez que le nom du fichier soit remplacé.
+![pices jointes](_media/pj.jpg) 
+
 ## Découper un devis
 
 * Le bouton découper sur l'écran d'édition d'un devis permet de scinder un devis en deux propositions différentes.
@@ -293,4 +323,10 @@ En passant par le tiers
 ![devis_autre_langue](_media/devis_autre_langue.jpg)
 
 
+## Modifier la gamme du devis
+
+## Produits à deviser par le BE
+* Lorsque vous tentez de changer de gamme un devis et que certains produits ne disposent pas de concordances dans cette gamme, le logiciel vous propose de faire deviser ce produit par le BE.
+* Dans ce cas, il vous suffit de sélectionner "Oui" dans le formulaire qui s'affiche à vous et de valider ensuite le formulaire
+* Le BE reçoit alors un email avec un lien qui leur permet de se rendre directement sur le devis et peuvent éditer le tarif correspondant
 

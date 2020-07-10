@@ -86,15 +86,3 @@ Vous pouvez créer autant de facture d'acompte que désiré. Une facture d'acomp
 * Il est possible de sélectionner une ou plusieurs remise et de les ajouter à la facture.
 * Les remises ajoutées passent alors en déduction sur la facture et le montant de remise accordée au client a été mis à jour dans la fiche du client.
 
-## Déduire un ou plusieurs acomptes d'une facture de solde
-* Si le client a réglé une facture d'acompte, il faut transformer cet acompte en "réduction future" depuis le bouton correspondant sur la facture
-* L'accompte est donc devenu une remise
-* Au moment de la facture de solde, il suffira, de venir ajouter les remises issues des acomptes, qui apparaissent sous forme de menu déroulant en haut de l'écran du client
-
-## Réaliser le contrôle de facturation
-
-## Vérifier l'encours du client
-Voir §client
-
-## Vérifier l'état des différents encours
-Voir §client

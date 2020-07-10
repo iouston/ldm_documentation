@@ -65,3 +65,20 @@ Depuis le menu horizontal haut, aller sur 'Tiers'
 * Cliquer sur l'onglet "Contact/Adresse par défaut"
 * Ajouter les contacts et le type de contact souhaité
 
+## Vérifier l'encours du client
+* Pour consulter l'encours du client, il faut se rendre sur le tiers concerné
+* Depuis la fiche du tiers, allez dans l'onglet 'client'
+* Le montant d'encours est affiché sur la partie droite de la page
+* Il est possible d'accéder au détail de l'encours du client en cliquant sur 'Montant encours'
+![Encours client](_media/encours_client.jpg)
+
+## Vérifier l'état des différents encours
+* Depuis le menu 'tiers'
+* Cliquer sur 'Etat des encours'
+* Les agents commerciaux peuvent également accéder à cette fonctionnalité mais n'ont accès qu'à l'encours de leurs clients
+
+## Connaitre la réputation d'un client
+* La réputation du client permet de vérifier si le client nous signe plus devis qu'il ne nous en signe pas. 
+* Si le client nous signe plus de devis qu'il n'en signe pas, il a bonne réputation, une bulle verte au niveau de la fiche tiers est ajoutée ainsi que sur la fiche du devis
+* Si un client nous signe autant de devis qu'il n'en signe pas, il a une réputation moyenne, une bulle orange apparait
+* Si le client ne nous signe pas plus de devis qu'il ne nous en signe, il a une mauvaise réputation, une bulle rouge apparait

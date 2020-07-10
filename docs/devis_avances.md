@@ -33,3 +33,41 @@ Dans ce cas, sans précision de votre part, le produit sera compté comme fourni
 
 
 ## Paramétrer le Récap FPTN
+
+## Ajouter un prix de revient dans un produit libre
+* Si vous disposez des droits vous permettant d'ajouter des produits libres, vous pouvez indiquer des éléments de ce type dans les devis
+* Néanmoins, vous devez systématiquement indiquer un prix de revient
+* Le prix de revient n'est accessible en écriture que si vous disposez des droits d'accès aux marges et si l'affichage des marges est actif sur le devis.
+* Pour rendre actif l'affichage des marges, cliquer sur le bon 'afficher les marges' situé en bas de l'écran d'édition du devis.
+
+## Ajouter un produit libre au catalogue
+* Si vous disposez des droits nécessaires, vous avez la possibilité d'ajouter un produit libre à votre devis.
+* Pour cela, depuis l'écran d'édition des devis, sélectionner le type de ligne : produit ou service
+* Remplissez ensuite la description du produit ou du service, ainsi que le prix, le taux de tva, la quantité et si besoin, la remise
+* Ajouter le produit ou le service
+* Une fois le produit ou le service libre ajouté, vous voyez apparaitre à gauche du produit, sous le numéro de ligne, une icône en forme de flèche.
+* En cliquant sur cette flèche, une boite modale vous permettant de personnaliser la référence du produit apparait. **Personnaliser la référence avec un intitulé logique et abrégé.**
+* Valider, le produit ou le service est ajouté au catalogue et sera disponible par la suite dans les produits prédéfinis.
+* Une fois le produit ajouté au catalogue, retournez sur sa fiche et indiquer son prix d'achat ainsi que son poids de façon à ne pas mettre en péril le calcul du poids du devis et celui de la marge.
+![Produit libre catalogue](_media/produit_libre_catalogue.jpg)
+![Produit libre catalogue1](_media/produit_libre_catalogue1.jpg)
+![Produit libre catalogue2](_media/produit_libre_catalogue2.jpg)
+
+## Deviser sur excel en vue d'importer sur dolibarr
+* Depuis Z:\Service commercial\Devis\deviseur_xl
+* Faites une copie du fichier deviseur_xl et renommer le nouveau fichier deviseur_xl_votrepremom
+* Ne mettez pas d'accent, d'espace et de caractères spéciaux dans le nom du fichier
+* Ouvrez votre fichier et rendez-vous dans l'onglet "parametres"
+* **A continuer….**
+
+## Importer des lignes de devis depuis excel
+* Depuis la page d'édition du devis
+* Cliquer sur le bouton "importer des lignes de propale"
+* Sélectionner votre fichier (au format CSV ou XLS) dans le champ qui apparait
+* Le format du tableau doit être le suivant : Réf. | Libellé | Qté | PU ht
+* Vous pouvez générer un devis excel compatible depuis l'outil excel
+
+## Conversion complète
+* Sur l'écran d'édition du devis se trouve un bouton "conversion complète.
+* Ce bouton permet de transformer en produits catalogue, tous les produits libres d'un devis.
+* Cette fonction est donc à utiliser avec parcimonie, car sinon le risque est important de surcharger la base produit de cas particuliers…
