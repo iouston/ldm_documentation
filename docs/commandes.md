@@ -53,4 +53,4 @@
 
 ## Modifier les couleurs et les valeurs de charge de fabrication des tranches
 * Les tranches de commandes ont une charge de fabrication qui correspond à une couleur
-* Les valeurs et les couleurs affectées se personnalisent deuis accueil > configuration > dictionnaires > Histogramme du planning
+* Les valeurs et les couleurs affectées se personnalisent depuis accueil > configuration > dictionnaires > Histogramme du planning
