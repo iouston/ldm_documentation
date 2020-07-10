@@ -13,6 +13,10 @@
 * Confirmer la validation de l'expédition
 * Vous pouvez envoyer par mail la confirmation de livraison au client et/ou au transporteur.
 
+## Enlèvement par le client
+* Lorsque vous avez sélectionné 'enlèvement par le client' dans la méthode d'expédition un message avec les informations pratiques apparait sur le pdf généré
+* Si vous ajouter tout de même un contact de livraison, les informations de contact apparaitreront en dessous de ces informations pratiques.
+
 ## Cloturer une expédition
 * Une fois l'expédition arrivée à bonne destination, vous pouvez rechercher l'expédition concernée et la cloturer.
 * Pour cela, depuis Produits > expéditions, rechercher votre numéro d'expédition
