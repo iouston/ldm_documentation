@@ -30,6 +30,7 @@
 - **Questions Fréquentes**
 - **Assistance**
 	- [Contacter l'assistance](/contact_assistance)
-
+- **Documentation technique**
+  - [Problèmes rencontrés](/problemes_rencontres)
 	
 
