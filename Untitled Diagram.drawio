@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2020-08-27T07:58:00.774Z" agent="5.0 (Windows)" version="13.6.5" etag="w2tF24ff9McX73rYoh6I" type="github"><diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">7Zzfs5o4FMf/Gl87EH76qFa3nWlnd9ad2ecIEdMbCBOC99q/foMGFGI77tUmYPFFOQQSzvn45eQQnTiL9O0PBvPdVxojMgFW/DZxPk4AAKEHxFtlOZwstjO1TpaE4VjazoY1/o6ksW5W4hgVrYacUsJx3jZGNMtQxFs2yBh9bTfbUtLuNYcJUgzrCBLV+i+O+U5abX963vEJ4WQnuw5BcNqxgdFLwmiZyf4mwNkeX6fdKazPJS+02MGYvl6YnOXEWTBK+elT+rZApHJu7bbTcasf7G3GzVDGbzogcL3TMXtISlQP+jg0fqjdgWLhHbmZ0Uy8zY/XiKqzWGLrW5nmnQY7nhKxZYuPzUVWTQncIDJv3LSghLLzUQWHjM+qCHZsK0yIPAPK4rpFRGBR4OhklE2qHr8hzg8SK1hyKkyU8R1NaAbJF0rzemSc0RdUj0EEC6y8ebBo9tTBd4RlSzO+gikmFdSfENkjjiMod8i+bF9uX57ScV3vY3XKHEY4S4TVE1snJ1eebYWuoCWLUBMcyZvwQIJqzAPfVcNsN/CIbyWiKeLsIJowRCDH+3YfUH47kqbdmRDxQULyQ2D8EZiBARNc0QWNwAQjMAMDxreMAhOOwAwMGM8xCsxUAWYW7xHjuKiursvOGZTK4a87zNFaOKLa+yoS2jtIuQxdy9iKmoDiWnzfG83V8SXskOAkqxAUIUCsPlBet62EG7JInjUQWzliWLgesXXTCDRMVL5Eb62I3RBpeYA7lSmmnA04ofVBWl4vkmtPas7uIq8OrEfgUZ/53Xpi69aTd4vFMvR8F7xfLNyf4NWmp8tWh+qNhRzk3yoqtXx0RMU3KSqePVIzSGo8o9SAkZpBUmN0Tl2P6YKaZboRieSh58kLqhm4O+JK8vJzBHQlLyIv6SQv3q3Ji/+Y5MVV0PhnhyjDqOg5G1srRKGtmQ1LIxt+Gw3PcjWjoZZuZ3mOIBnBMAuG7RrWDLVE+wUeaMlHMHqlGMDTrRhjKfaCFtufTo8Y/vIE9qbEtA5xpxRrtLLmjaXYwQEDjAKjlmJHYHoOjNGng75anP2TJTDD30VPNOt5xlIFOH5IOHs6/+0W773g5uL9Y1IWXy3DLoQvquH3Gw3f3WyQjtKItuS1g4Lv6UZBra3Oy7hSspEEo0/0AtvXTIJaL52JW/GhwH0vij0dC8C4KqgF0q+QvQh39v7R/8oKA8vTAENfsgdg6YbjSokUp0IkfCL6mW+Y+JTw5mJ7S8rWg1sxF38e2egmE7atm4xxGes1JerJRFVqemeiavTJvq/WTj9nwl1lKgbT97Tj6fRDmZfqlo+xMDo4+QiMyodaGF2jpNKOIdS5nk4/utMW7flHcO+i1FFAtAvI9GbKfoGABNcKoWlaZsIbA1AQG0C4eea5bqAsc/c+uNOLl1Z1UUuly/0A8lTfjvyq76ddARIGnbwVaF4CEqil0/933xnOAmUbzGZzLTeVhy5QroW+8xtOYPTmc6XIimIMRzkxvNLQstp64jq69eTe/w8Y9cSMnhj9wUOgVl/XOc0Kyvr/1Ob3ExVHe5Jy7zrVUVTMiIrRX2wGak32r79HMenXhAe4urXk3hWpo5aY0ZJQm5aIzfNfbh33XfyxmbP8Dw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-27T08:40:12.405Z" agent="5.0 (Windows)" etag="pXSnJHAKYQPRDS4AlkRa" version="13.6.5" type="github">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1422" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1805" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.965;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeWidth=3;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="1" source="1764" target="Wn7-gFN3Ixt-Qx52Awr8-1792">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1764" value="Abet fabrique les panneaux. Les panneaux sont ajoutés au stock BRA à la réception de la commande" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="40" width="365" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1767" value="Commande fournisseur de LDM à Abet" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1768" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#F08705;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1764" target="1764" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1779" value="" style="endArrow=classic;html=1;entryX=-0.005;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;" edge="1" parent="1" target="1764">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="312" y="69" as="sourcePoint" />
+            <mxPoint x="560" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1807" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeWidth=3;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="Wn7-gFN3Ixt-Qx52Awr8-1781" target="Wn7-gFN3Ixt-Qx52Awr8-1792">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1781" value="Sur demande de livraison de LDM, Abet transfère des panneaux de Bra vers Chambéry, c&#39;est un transfert de stock, les panneaux sont ajoutés au stock Chambery" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="365" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1782" value="" style="endArrow=none;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;exitX=0.821;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;startArrow=classic;startFill=1;entryX=0;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wn7-gFN3Ixt-Qx52Awr8-1781" target="1764">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <mxPoint x="500" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1806" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.71;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeWidth=3;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="1" source="Wn7-gFN3Ixt-Qx52Awr8-1783" target="Wn7-gFN3Ixt-Qx52Awr8-1792">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1783" value="Sur demande de livraison de LDM, Abet transfère des panneaux de Chambéry vers LDM, ce sont les entrées de semaine (même si c&#39;est aussi un transfert de stock dans dolibarr)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="630" y="160" width="365" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1784" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wn7-gFN3Ixt-Qx52Awr8-1781" target="Wn7-gFN3Ixt-Qx52Awr8-1783">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="204.25" as="sourcePoint" />
+            <mxPoint x="529.155" y="204.26700000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1786" value="&lt;div&gt;Transfert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="215.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1788" value="Fabrication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1789" value="&lt;div&gt;Transfert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1792" value="Corrections de stock en + ou en - à affecter sur le stock dans lequel elles ont lieues" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#9673a6;strokeWidth=3;fillColor=#e1d5e7;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="930" y="320" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1808" value="Fabrication depuis LDM c&#39;est à dire sortie semaine d&#39;après les consommations" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="402" y="360" width="365" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1809" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeWidth=3;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="394.25" as="sourcePoint" />
+            <mxPoint x="930" y="394" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="394" />
+              <mxPoint x="890" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1810" value="" style="endArrow=none;html=1;strokeWidth=3;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.16;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" target="Wn7-gFN3Ixt-Qx52Awr8-1783">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="356" as="sourcePoint" />
+            <mxPoint x="700" y="229.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1811" value="Déduit les qtés à commander" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#6c8ebf;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="365" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1812" value="" style="endArrow=none;html=1;strokeWidth=3;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.16;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="356" as="sourcePoint" />
+            <mxPoint x="687.04" y="230.9855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1813" value="" style="endArrow=none;html=1;strokeWidth=3;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.16;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="642.96" y="554.51" as="sourcePoint" />
+            <mxPoint x="640" y="429.4955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wn7-gFN3Ixt-Qx52Awr8-1814" value="" style="curved=1;endArrow=classic;html=1;dashed=1;strokeWidth=3;fontSize=14;entryX=0.091;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1" target="1767">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="630" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="700" />
+              <mxPoint x="-100" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
