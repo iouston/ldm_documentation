@@ -14,3 +14,16 @@
 * L'envoi doit être considéré comme spam et éliminé
 * La solution est de conserver des signatures sans HTML
 * Dans le cas de certains compte, la signature, y compris en HTML passe et le mail arrive à destination...
+
+## CSS Personnalisé depuis module personnalisateur de thème
+<code>input, input.flat, textarea, textarea.flat{background:#cbe4f2;}
+div.login_block{max-width:240px;}
+#blockvmenusearch .select2-container{margin-bottom:100px;}
+#search_overlay #blockvmenusearch #select2-currentuserid-container{font-size:18px;padding-top:0px;}
+.login_block{max-width:400px!important;right:10px!important;top:10px!important;}
+
+
+input[type=checkbox] { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; }
+input[type=checkbox] { border-radius: 4px; height: 15px; width: 15px; background: #fff; border: 1px solid #ccc; }
+input[type="checkbox"]:checked {border:1px solid green; background: #99cc99; margin:0px; position: relative; }
+input[type="checkbox"]:checked:before { content: 'x'; display: block; color: black; font-size: 18px; position: absolute;top:-3px;left:2px; }</code>
