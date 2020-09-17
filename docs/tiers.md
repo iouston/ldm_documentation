@@ -54,4 +54,8 @@ Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusio
 * Une fois que tout cela est fait, envoyer le mot de passe par mail à l'utilisateur depuis sa fiche utilisateur ainsi que l'adresse de connexion au portail
 * C'est tout bon. Bravo !
 
+## Ajouter l'IBAN et le BIC/SWIFT du tiers
+* Si vous devez ajouter le N° IBAN du client mais que vous ne disposez pas du BIC/SWIFT, vous pouvez le trouver assez facilement depuis un vérificateur d'IBAN disponible à cette adresse → [https://fr.iban.com](https://fr.iban.com/)
+* Le fait de vérifier l'IBAN permet de s'assurer que le compte existe bien
+
 
