@@ -8,12 +8,28 @@
 * respectivement, ligne 170, 239, 357
 
 ## Mails envoyés n'arrivent pas au destinataire, notamment vers mail-tester.com
-* Dolibarr nous indique que les mails sont envoyés. LA configuration dolibarr est correcte
+* Dolibarr nous indique que les mails sont envoyés. La configuration dolibarr est correcte
 * Depuis le webmail l'envoi du mail est correct
 * Après de nombreux tests, il s'avère que c'est la signature mail en HTML qui empêche cet envoi.
 * L'envoi doit être considéré comme spam et éliminé
 * La solution est de conserver des signatures sans HTML
 * Dans le cas de certains compte, la signature, y compris en HTML passe et le mail arrive à destination...
+
+## Mails envoyés n'arrivent pas sur les adresses wanadoo
+* Pour une raison inconnue, les adreses mails en @wanadoo.fr ne reçoivent pas toujours nos mails
+* Voici le message et la procédure à envoyer à ces personnes
+Bonjour,
+
+__Je suis l'informaticien chez LDM Équipement.
+Élodie me fait savoir que vous ne recevez aucun des mails que LDM vous envoie.
+Nous avons déjà eu le cas par le passé avec des adresses se terminant par @wanadoo.fr alors même que notre serveur d'envoi est parfaitement configuré.
+Élodie me dit que vous avez vérifié dans les spams et qu'il n'y a rien. Il faut savoir que chez les adresses orange/wanadoo, la majorité des spams sont retenus et visibles uniquement depuis le webmail.
+Aussi, je vous invite à suivre chaque étape de cette procédure : https://assistancepro.orange.fr/mail/depuis_un_ordinateur/parametrer_et_configurer_votre_boite_mail/messagerie_mail_pro__creer_votre_liste_verte-298206
+Au point n°6 "Ajouter un destinataire" de cette procédure, indiquer non pas une adresse mais un domaine, c'est à dire "@ldmequipement.fr" et "@vestiaireplus.fr" (qui est la petite soeur de LDM)
+Ensuite, vous devriez recevoir nos mails sans aucun problème et à tous les coups.
+Je reste à votre disposition pour tout complément d'information
+Bien cordialement,__
+
 
 ## CSS Personnalisé depuis module personnalisateur de thème
 *Code CSS ajouté directement dans l'onglet avancé du module personnalisateur de thème
