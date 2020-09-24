@@ -59,3 +59,4 @@ Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusio
 * Le fait de vérifier l'IBAN permet de s'assurer que le compte existe bien
 
 
+## Frais de gestion
