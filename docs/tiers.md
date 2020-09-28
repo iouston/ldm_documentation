@@ -66,3 +66,5 @@ Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusio
 * Si votre client est dispensé des frais de gestion, il vous suffit de cocher la case 'Dispensé des frais de gestion' sur la fiche de votre client. Si il est dispensé des frais de gestion, les frais ne seront pas ajoutés à votre client
 > [!TIP]
 > Vous pouvez tout à fait ajouter les frais de gestion par vous même comme n'importe quel produit, ils ne seront pas ajoutés une seconde fois lors de la validation. Cela vous permet par exemple d'offrir les frais plus facilement
+> [!WARNING]
+> Les frais de gestion ne sont pas rétroactif. C'est à dire que si vous cloner une devis avec des frais de gestion vers un client exonéré de frais de gestion, les frais de gestion ne seront pas automatiquement retirés.
