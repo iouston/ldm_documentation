@@ -1,5 +1,18 @@
  # Problemes rencontrés et solutionnés
 
+ ## Erreur à la création d'une commande depuis un devis
+ * Lorsque je créé une commande depuis un devis, j'ai un message d'erreur qui me précise :
+ > Erreur lors de l'ajout
+> CODE_NOT_VALID_FOR_THIS_ELEMENT
+> CODE_NOT_VALID_FOR_THIS_ELEMENT
+* La création de la commande échoue
+* Dans ce cas là, la solution consiste à cloner le devis pour le même client.
+* Valider ce devis et signer le
+* Passer ce devis en commande, normalement, ça va fonctionner
+* Depuis les objets liés tout en bas de la commande, ajouter un élément en cliquant sur 'lier à...' et faire un lien avec le devis initial qui posait problème.
+* Une fois ce lien établi, supprimer le devis qui a été cloné et de cette façon tout est bon. Bien joué !
+
+
 ## Les pièces jointes sont supprimées à la validation des devis, commandes, factures
 * Sous dolibarr v9.0.4 et avec le module forceproject activé, les pièces jointes ajoutées au statut brouillon dans les devis, les commandes et les factures sont perdues lors de la validation de l'object
 * Eldy, consulté par mail le 25/09/2019 indique que le bug sera résolu en V10 pas avant
