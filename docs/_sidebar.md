@@ -24,6 +24,7 @@
   - [Stocks - MRP](/stocks_mrp)             
 - **Utilisation avancée**
   - [Fonctions avancées](/fonctions_avancees)
+  - [Utilisateurs](/utilisateurs)
   - [Devis avancés](/devis_avances)
   - [Frais transport](/module_frais_transport)
   - [Augmentation réduction](/module_augmentation_reduction)

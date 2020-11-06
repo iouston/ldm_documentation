@@ -93,6 +93,12 @@ Vous pouvez créer autant de facture d'acompte que désiré. Une facture d'acomp
 
 ## Réaliser le contrôle de facturation
 
+## Toujours envoyer une facture client par courrier
+* Certains clients souhaitent recevoir systématiquement une facture par courrier
+* Il est possible depuis la fiche du tiers de paramétrer le champ 'facture client' sur Oui
+* Dans ce cas, lors de l'envoi de la facture par email, un message d'alerte sera affiché
+* Un bouton 'classer envoyée par courrier' sera également disponible et permettra de consigner l'information dans dolibarr
+
 ## Vérifier l'encours du client
 Voir §client
 
