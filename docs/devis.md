@@ -302,11 +302,19 @@ Les notes ne doivent pas prendre le pas sur la gestion de la relation avec le cl
 * Vous devez également paramétrer un contact de 'suivi proposition', généralement, il s'agit de l'agent commercial, et le contact 'etude_proposition'. Normalement ce contact se met automatiquement avec votre nom mais vous pouvez le modifier si nécessaire
 * Vous pouvez également définir un contact par défaut au niveau de la fiche du tiers pour ne pas avoir à le faire à chaque fois. (cf. contact par défaut)
 
-## Réaliser un devis, une commande en autoliquidation de TVA
+## Réaliser un devis, une commande, une facture en autoliquidation de TVA
 
 * Les devis en autoliquidation de TVA sont à réaliser dans le cadre d'une sous traitance dans le cadre d'un marché
 * Il suffit de cocher la case 'Autoliquidation TVA' sur l'écran du devis ou l'écran de la commande pour l'utiliser.
 * Si cette option est cochée, le devis ou la commande générée n'afficheront pas de TVA et une phrase qui précise le régime de l'autoliquidation de TVA sera affiché.
+
+## Réaliser un devis, une commande, une facture pour les DOM TOM sans TVA
+
+* Lorsque le client se trouve dans un DOM TOM, la case 'TVA DOM TOM' disponible sur les devis, les commandes et les factures est automatiquement cochée
+* A partir de là, tous les produits et services ajoutés sont exonérés de TVA conformément à la loi
+* Si toutefois dans le cadre d'un cas particulier vous deviez comptabiliser de la TVA, il suffira de décocher la case 'TVA DOM TOM'.
+> [!WARNING]
+> Dans ce cas, il vous faut remettre le taux à 20% de TVA pour les articles déjà saisis. Ce n'est pas rétroactif.
 
 ## Générer un devis dans une autre langue
 

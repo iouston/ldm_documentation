@@ -6,6 +6,13 @@
 * Cliquer sur le bouton "Créer commande"
 * Saisissez les éléments concernant la commande et créer le brouillon
 
+## Afficher des textes automatiques dans la note de commande
+* En fonction de certains paramètres de la commande, le fichier pdf généré affichera certaines informartions ou non
+* Par exemple, si vous indiquez pour 'type de commande' que la commande est en fourniture et pose ou en pose, une note relative à la pose sera automatiquement ajoutée.
+* Si le type d'expédition est en enlèvement par le client, des précisions seront fournies au client
+* Selon les conditions de réglement définies, les moyens de paiement s'affichent ou non
+* Ces textes prédéfinies
+
 ## Créer des tranches de commandes
 * Depuis une commande, rendez-vous sur l'onglet 'Tranche'
 * Là, dans la zone 'A trancher' se trouvent les produits et les services encore non affectés à une ou plusieurs tranches
