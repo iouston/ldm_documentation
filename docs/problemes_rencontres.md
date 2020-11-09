@@ -43,6 +43,14 @@ Ensuite, vous devriez recevoir nos mails sans aucun problème et à tous les cou
 Je reste à votre disposition pour tout complément d'information
 Bien cordialement,__
 
+## Upbutton dans le header
+Le module upbutton ajoute dans le header des pages de dolibarr un menu déroulant assez pénible qui se déplie au survol.
+Il est neutralisé en passant en commentaire 
+> var $upbuttons_container = $('div.tabsAction').first();
+> window.setTimeout(getButtonInBanner, 300); //delai for js button
+dans upbuttons/js/upbuttons.js.php
+
+
 
 ## CSS Personnalisé depuis module personnalisateur de thème
 *Code CSS ajouté directement dans l'onglet avancé du module personnalisateur de thème
