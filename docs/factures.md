@@ -1,4 +1,6 @@
- # Factures
+ # Factures & Comtpabilité
+
+ # Facturation
 
 ## Créer une facture
 * Dolibarr vous permet d'établir des factures aux clients que vous avez préalablement saisis 
@@ -16,11 +18,11 @@ Il s'agit d'une facture standard. Il n'y a aucun prérequis
 
 Une facture de remplacement permet de refaire une facture sur laquelle il y aurait des erreurs et sur laquelle rien n'aurait été fait (aucun paiement saisi). On ne peut créer qu'une seule facture de remplacement pour une facture de "doit" donnée. Quand on créé une facture de remplacement R, on choisit la facture de doit F qui doit être remplacée. Il n'est alors plus possible de faire d'actions sur la facture F, bien que cette dernière ne change pas de statut après que la facture de remplacement R ait été créée au statut brouillon. Si la facture de remplacement R est supprimée, la facture F reprends son état initial et le cycle de vie de la facture F peut reprendre. Si la facture de remplacement R est validée, la facture F passe alors au statut abandonnée automatiquement. Le cycle de vie continue sur la facture R.
 
-#### ** factures d'avoir **
+#### ** Factures d'avoir **
 
 On crée une facture d'avoir sur une facture de "doit". On peut créer plusieurs factures d'avoir sur une facture donnée. La facture d'avoir est transformée en réduction qui sert à réduire le paiement de n'importe quelle autre facture en attente de paiement
 
-#### ** factures d'acomptes **
+#### ** Factures d'acomptes **
 
 Vous pouvez créer autant de facture d'acompte que désiré. Une facture d'acompte sera ensuite convertie en réduction (déjà payé) pour une autre facture (la facture définitive) sur laquelle porte l'acompte.
 
@@ -92,6 +94,11 @@ Vous pouvez créer autant de facture d'acompte que désiré. Une facture d'acomp
 * Au moment de la facture de solde, il suffira, de venir ajouter les remises issues des acomptes, qui apparaissent sous forme de menu déroulant en haut de l'écran du client
 
 ## Réaliser le contrôle de facturation
+* Sur chaque facture, un champ "controle de facturation" est présent. 
+* Il permet d'indiquer si le contrôle de facturation a été réalisé.
+* A la création de la facture, passez ce champ sur le choix "Non controlée"
+* Ce champ est disponible dans les listes de facture pour visualiser rapidement les factures à contrôler
+* Une fois le contrôle réalisé sur la facture, passer ce champ sur la position "contrôllée" 
 
 ## Toujours envoyer une facture client par courrier
 * Certains clients souhaitent recevoir systématiquement une facture par courrier
@@ -100,7 +107,18 @@ Vous pouvez créer autant de facture d'acompte que désiré. Une facture d'acomp
 * Un bouton 'classer envoyée par courrier' sera également disponible et permettra de consigner l'information dans dolibarr
 
 ## Vérifier l'encours du client
-Voir §client
+Voir [§client](clients)
 
 ## Vérifier l'état des différents encours
-Voir §client
+Voir Voir [§client](clients)
+
+# Comptabilité
+
+## Compta dans dolibarr
+* Dolibarr permet de faciliter le travail de comptabilité,de générer et d'éditer son grand livre et d'exporter les écritures dans des logiciels comptables
+* Vérifier que la liaison entre les lignes de factures client existantes et le compte comptable est faite. Compléter les liaisons manquantes. Pour cela, vous pouvez utiliser l'entrée de menu Compta/Tréso-Comptabilité-Liaison factures client.
+* Vérifier que la liaison entre les lignes de factures fournisseurs existantes et le compte comptable est faite. Compléter les liaisons manquantes. Pour cela, vous pouvez utiliser l'entrée de menu Compta/Tréso-Comptabilité-Liaison factures fournisseur.
+* Vérifiez que la liaison entre le type de notes de frais et le compte comptable est faite. Compléter les liaisons manquantes. Vous pouvez définir les comptes comptables à utiliser pour chaque type de ligne de note de frais sur la page Compta/Tréso-Comptabilité-Liaison notes de frais.
+*Ecrire les transactions dans le Grand Livre. Pour cela, aller sur chaque Journal, et cliquer sur le bouton "Enregistrer les opérations dans le Grand Livre".
+*Ajouter ou modifier les opérations existantes et générer des rapports et des exportations.
+
