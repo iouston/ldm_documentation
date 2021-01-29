@@ -66,3 +66,8 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
 
 ## Montant différent entre total liste dolibarr et pivot report
 * Vérifier que le pivot report prend bien en considération le champ entity dans sa requete. Sinon c'est qu'il fait une requete globale
+
+## Préparer un import de données dans la base de données 
+* Les prix doivent être à 8 décimales
+* Les points de séparation 2.50 deviennent 2,50 en csv mais il faut 2.50000000 dans la base de données
+* Pensez à utiliser substitue pour modifier les virgules en points comme séparateur...
