@@ -20,3 +20,14 @@
 * Fabriquer et créer une commande fournisseur
 * Créer une facture (ou plus si besoin)
 * Encaisser le règlement
+
+## Utilisation des filtres dans dolibarr
+* Sur des listes affichées par dolibarr vous pouvez utiliser plusieurs filtres. L'utilisation de plusieurs filtres est compris par le logiciel comme ET.
+**Par exemple**, si sur la liste des tiers je mets un filtre '54000' dans code postal et 'Damien Hailant' dans commercial, le logiciel ne me sortira que la liste des tiers du 54000 ET dont Damien est le commercial
+
+## Filtre commence par / fini par
+* Je peux utiliser le caractère de remplacement ^ pour indiquer que je cherche ce qui commence par ou ce qui termine par
+* Si depuis la liste des tiers j'indique ^54 dans le filtre du code postal, le logiciel va m'afficher tous les tiers qui ont un code postal qui commence par 54.
+* A l'inverse, si j'indique 54^, le logiciel va me retourner tout ce qui termine par 54
+* Si j'indique ^5400^ il me retournera exactement ce qui correspond à 5400
+
