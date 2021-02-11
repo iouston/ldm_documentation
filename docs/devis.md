@@ -154,6 +154,7 @@ En passant par le tiers
 * Une seconde fenêtre apparait et vous propose le tarif le plus adapté en fonction des transporteurs disponibles.
 * Un produit Frais de transport est ajouté au devis avec la valeur correspondante.
 * Il s'agit d'un produit lambda, vous pouvez donc, si vous en avez la permission, modifier son tarif, sa quantité, appliquer une réduction, etc…
+* Vous pouvez également demander à bénéficier d'un hayon sur le camion de transport. Le montant en sus est autoamtiquement ajouté
 > [!WARNING]
 > Attention, le calcul du frais de port se fait en fonction des poids de chaque produit et non pas du poids total du devis (qui est là pour information). Il est donc important que le poids de chaque produit référencé dans le logiciel soit connu (cf. produits sans poids) 
 
@@ -284,14 +285,24 @@ Les notes ne doivent pas prendre le pas sur la gestion de la relation avec le cl
 > [!TIP]
 > Attention, il faut placer le signe + ou le signe – devant le pourcentage qui sera appliqué.
 
-![reduction_modale](_media/reducation_modale.jpg)
-
 * Il est possible d'ajouter successivement plusieurs augmentations et/ou réductions globale sur chaque devis.
 À tout moment vous pouvez retrouver les augmentations et réductions qui ont été appliquées sur le devis. Pour cela rendez-vous dans l'onglet "Réductions/augmentations"
 * Il est possible de revenir en arrière en supprimant la dernière remise/augmentation appliquée.
 * Certains produits sont exclus de la réduction ou de l'augmentation. Comme la pose ou le transport
 
 ![reduction_ecran](_media/reduction_ecran.jpg)
+
+## Appliquer un prix cible
+* Il arrive parfois que le client et vous vous entendiez sur un prix fixe définit, c'est un prix cible
+* Dans ce cas, on utilisera également le module de réduction / augmentation
+* Par contre on indiquera un montant fixe HT
+* Le module calcul alors tout seul le taux de remise à appliquer et conssentir pour obtenir le résultat voulu
+
+> [!TIP]
+> Attention, en faisant des prix cibles, parfois le jeu des arrondis fait qu'on arrive pas tout à fait au chiffre voulu.
+> Par exemple, je demande 1000€ en prix cible et le module m'affiche un devis à 999,99€ après son calcul
+> Dans ce cas là, si je veux obtenir 1000€, je peux supprimer mon prix cible et recommencer en précisant que je souhaite 1000,01€
+> Le module refait son calcul, et avec le jeu lié aux arrondis, je vais bien arriver à 1000€
 
 ## Gérer les contacts du devis
 
