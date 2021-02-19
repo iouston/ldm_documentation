@@ -71,3 +71,11 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
 * Les prix doivent être à 8 décimales
 * Les points de séparation 2.50 deviennent 2,50 en csv mais il faut 2.50000000 dans la base de données
 * Pensez à utiliser substitue pour modifier les virgules en points comme séparateur...
+
+## Menu déroulant dropdown menu
+* Lorsqu'on active le menu déroulant dropdown menu dans une entité, le menu des autres entités ne marche plus
+* Solution → désactiver le fichier init_sql.sql et désactiver / réactiver le module dans chaque entité
+
+## Update bdd pour remplacer une valeur par une autre dans la même table
+* La requête suivante permet de remplacer une valeur par une autre dans la même table
+* UPDATE llx_product AS A INNER JOIN llx_product AS P ON A.rowid = P.rowid SET A.pmp = P.cost_price WHERE A.entity=2 
