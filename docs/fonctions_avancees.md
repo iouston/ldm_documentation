@@ -42,8 +42,13 @@
 * Cela permet de soulager le serveur au niveau du stockage
 * Les devis ne sont cependant pas supprimés de la base de données. il sera donc possible de régénrer un fichier pdf du devis. Par contre les pièces jointes : plans, messages et autres sont supprimés.
 
-
-
-
+## Modifier la vitesse de défilement de la molette de la souris
+* Ne fonctionne que pour firefox
+* Tapez la ligne suivante dans la barre d’adresse : aboutconfig
+* Filtrer sur mousewheel
+* Repérez les deux lignes suivantes : mousewheel.withnokey.sysnumlines
+* Mettez la valeur de mousewheel.withnokey.sysnumlinessur « false »
+* Et remplacez la valeur de mousewheel.withnokey.numlines par le nombre de ligne que vous voulez dérouler à chaque cran de la roulette de la souris.
+* Il est également possible de dérouler les pages plus lentement en appuyant sur la touche Alt pendant que vous déroulez une page, et vous pouvez régler la vitesse avec le paramètre : mousewheel.withaltkey.numlines = 1
 
 
