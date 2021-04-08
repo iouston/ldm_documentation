@@ -46,3 +46,10 @@ Par exemple :
 
 > [!TIP]
 > A partir de la commande fournisseur générée par la table MRP, on fait la réception des produits fabriqué cf §Fabrication des panneaux ABET
+
+## Livraison de panneaux depuis Chambéry (CHA)
+* Lorsque la table MRP indique un stock néfatif pour le stock LDM dans la table Abet, il est possible de demander une livraison de Chambéry vers LDM en cliquant sur ce chiffre
+* Cela a pour effet de préparer un mail avec les quantités nécessaires
+* Les quantités sont sous forme de multiples de 13 car c'est la règle auprès d'abet. Donc pour 2 panneaux nécessaires, vous devez en commander 13.
+> [!WARNING]
+> Attention, ça ne créé par de commande fournisseur. Ce sera à vous de créer le transfert de stock nécessaire !
