@@ -24,18 +24,18 @@ On crée une facture d'avoir sur une facture de "doit". On peut créer plusieurs
 L'avoir va servir à annuler une facture.
 
 -------------
-* Exemple, double facturation
---Nous avons facturé par erreur 2 fois le client pour la même prestation
---Le client nous a payé la facture 1
---On ne peut pas supprimer la facture 2 qui n'a pas lieu d'être
---Pour régulariser, on va alors créer une facture d'avoir en partant de la facture 2
---Sur cet avoir, il faut cliquer sur le bouton 'Marquer comme crédit disponible'
---L'avoir devient alors un crédit affecté au client et qui peut permettre de régler une autre facture
---On retourne sur la facture 2
---On utilise la remise disponible du client.
---L'avoir est alors utilisé pour régler la facture 2 qui se retrouve avec un montant à 0
---Il faut cliquer sur le bouton 'classer payée' de la facture 2 pour terminer
---Au final, l'avoir est bien venu "annuler" la facture n°2 et tout est bien qui fini bien
+**Exemple, double facturation**
+* Nous avons facturé par erreur 2 fois le client pour la même prestation
+* Le client nous a payé la facture 1
+* On ne peut pas supprimer la facture 2 qui n'a pas lieu d'être
+* Pour régulariser, on va alors créer une facture d'avoir en partant de la facture 2
+* Sur cet avoir, il faut cliquer sur le bouton 'Marquer comme crédit disponible'
+* L'avoir devient alors un crédit affecté au client et qui peut permettre de régler une autre facture
+* On retourne sur la facture 2
+* On utilise la remise disponible du client.
+* L'avoir est alors utilisé pour régler la facture 2 qui se retrouve avec un montant à 0
+* Il faut cliquer sur le bouton 'classer payée' de la facture 2 pour terminer
+* Au final, l'avoir est bien venu "annuler" la facture n°2 et tout est bien qui fini bien
 -------------
 
 #### ** Factures d'acomptes **
