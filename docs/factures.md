@@ -21,7 +21,7 @@ Une facture de remplacement permet de refaire une facture sur laquelle il y aura
 #### ** Factures d'avoir **
 
 On crée une facture d'avoir sur une facture de "doit". On peut créer plusieurs factures d'avoir sur une facture donnée. La facture d'avoir est transformée en réduction qui sert à réduire le paiement de n'importe quelle autre facture en attente de paiement
-L'avoir va servir à annuler une facture.
+ou il peut servir à annuler une facture.
 
 -------------
 **Exemple, double facturation**
