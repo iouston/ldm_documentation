@@ -327,6 +327,18 @@ Les notes ne doivent pas prendre le pas sur la gestion de la relation avec le cl
 > [!WARNING]
 > Dans ce cas, il vous faut remettre le taux à 20% de TVA pour les articles déjà saisis. Ce n'est pas rétroactif.
 
+## Réaliser un devis, une commande, une facture en autoliquidation de TVA Intracommunautaire (TVA IC)
+
+* Les devis en autoliquidation de TVA sont à réaliser si :
+* - Le client est situé dans un pays éligible
+* - Le client est assujetti à la TVA
+* - Le numéro de TVA IC est renseigné dans sa fiche
+* Si ces 3 conditions sont réunies, le module affichera une alerte pour vous indiquer qu'il faut choisir l'autoliquidation de TVA IC
+* Dans ce cas il suffit de cocher la case 'Autoliquidation TVA IC' sur l'écran du devis, de la commande, ou de la facture pour l'utiliser.
+* Si cette option est cochée, le devis ou la commande générée n'afficheront pas de TVA et une phrase qui précise le régime de l'autoliquidation de TVA sera affiché.
+> [!WARNING]
+> Attention au cas particulier de l'Irlande du Nord qui est sur le territoire du royaume uni. Le royaume uni suite au brexit ne fait plus de TVA IC mais l'irlande du nord oui, mais ce n'est pas un pays donc difficile de le détecter automatiquement.
+
 ## Générer un devis dans une autre langue
 
 * En cas de besoin, il est possible de générer un devis dans un autre langue.
