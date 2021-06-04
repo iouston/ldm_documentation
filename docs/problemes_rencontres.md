@@ -16,7 +16,7 @@
 ## Les pièces jointes sont supprimées à la validation des devis, commandes, factures
 * Sous dolibarr v9.0.4 et avec le module forceproject activé, les pièces jointes ajoutées au statut brouillon dans les devis, les commandes et les factures sont perdues lors de la validation de l'object
 * Eldy, consulté par mail le 25/09/2019 indique que le bug sera résolu en V10 pas avant
-* Une solution est toutefois trouvé en empêchant le module force project de renommer trop tôt la réféfenceé
+* Une solution est toutefois trouvé en empêchant le module force project de renommer trop tôt la réféfence
 * pour cela, dans /forceproject/core/triggers/interface_15_modProject_ForceProject.class.php, commentez les lignes $object->ref=$newref;
 * respectivement, ligne 170, 239, 357
 
@@ -50,8 +50,6 @@ Il est neutralisé en passant en commentaire
 > window.setTimeout(getButtonInBanner, 300); //delai for js button
 dans upbuttons/js/upbuttons.js.php
 
-
-
 ## CSS Personnalisé depuis module personnalisateur de thème
 *Code CSS ajouté directement dans l'onglet avancé du module personnalisateur de thème
 <pre>input, input.flat, textarea, textarea.flat{background:#cbe4f2;}
@@ -79,3 +77,7 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
 ## Update bdd pour remplacer une valeur par une autre dans la même table
 * La requête suivante permet de remplacer une valeur par une autre dans la même table
 * UPDATE llx_product AS A INNER JOIN llx_product AS P ON A.rowid = P.rowid SET A.pmp = P.cost_price WHERE A.entity=2 
+
+## Lancement d'une tâche cron via travaux planifiés de dolibarr
+* Commande à inscrire dans le cron du cpanel : /usr/local/bin/php /home/gestion/scripts/cron/cron_run_jobs.php 53ac6fc1b54ee3ceb15c0a9b846fdad9de20a606 iouston > /home/gestion/public_html/dolibarr_ldm/documents/cron_run_jobs.php.log 2>&1
+* dans /home/gestion/scripts/cron/cron_run_jobs.php, modifier le chemin d'incluion de master.inc.php par ce chemin : require_once "/home/gestion/public_html/dolibarr_ldm/master.inc.php";
