@@ -22,7 +22,8 @@
   - [Factures Fournisseur](/factures_fournisseurs)
   - [Planning général](/planning_general)
   - [Fabrication](/fabrication)
-  - [Stocks - MRP](/stocks_mrp)             
+  - [Stocks - MRP](/stocks_mrp)   
+  - [Compta](/comptabilite)          
 - **Utilisation avancée**
   - [Fonctions avancées](/fonctions_avancees)
   - [Utilisateurs](/utilisateurs)

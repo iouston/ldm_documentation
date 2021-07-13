@@ -81,3 +81,6 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
 ## Lancement d'une tâche cron via travaux planifiés de dolibarr
 * Commande à inscrire dans le cron du cpanel : /usr/local/bin/php /home/gestion/scripts/cron/cron_run_jobs.php 53ac6fc1b54ee3ceb15c0a9b846fdad9de20a606 iouston > /home/gestion/public_html/dolibarr_ldm/documents/cron_run_jobs.php.log 2>&1
 * dans /home/gestion/scripts/cron/cron_run_jobs.php, modifier le chemin d'incluion de master.inc.php par ce chemin : require_once "/home/gestion/public_html/dolibarr_ldm/master.inc.php";
+
+## Dans la configuration comptable de la V13
+* Tous les codes comptables renseignés pour les notes de frais ne sont pas retrouvés en base, il faut les reparamétrer

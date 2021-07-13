@@ -1,6 +1,4 @@
- # Factures & Comtpabilité
-
- # Facturation
+# Facturation
 
 ## Créer une facture
 * Dolibarr vous permet d'établir des factures aux clients que vous avez préalablement saisis 
@@ -127,14 +125,3 @@ Voir [§client](clients)
 
 ## Vérifier l'état des différents encours
 Voir [§client](clients)
-
-# Comptabilité
-
-## Compta dans dolibarr
-* Dolibarr permet de faciliter le travail de comptabilité,de générer et d'éditer son grand livre et d'exporter les écritures dans des logiciels comptables
-* Vérifier que la liaison entre les lignes de factures client existantes et le compte comptable est faite. Compléter les liaisons manquantes. Pour cela, vous pouvez utiliser l'entrée de menu Compta/Tréso-Comptabilité-Liaison factures client.
-* Vérifier que la liaison entre les lignes de factures fournisseurs existantes et le compte comptable est faite. Compléter les liaisons manquantes. Pour cela, vous pouvez utiliser l'entrée de menu Compta/Tréso-Comptabilité-Liaison factures fournisseur.
-* Vérifiez que la liaison entre le type de notes de frais et le compte comptable est faite. Compléter les liaisons manquantes. Vous pouvez définir les comptes comptables à utiliser pour chaque type de ligne de note de frais sur la page Compta/Tréso-Comptabilité-Liaison notes de frais.
-*Ecrire les transactions dans le Grand Livre. Pour cela, aller sur chaque Journal, et cliquer sur le bouton "Enregistrer les opérations dans le Grand Livre".
-*Ajouter ou modifier les opérations existantes et générer des rapports et des exportations.
-
