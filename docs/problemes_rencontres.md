@@ -84,3 +84,11 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
 
 ## Dans la configuration comptable de la V13
 * Tous les codes comptables renseignés pour les notes de frais ne sont pas retrouvés en base, il faut les reparamétrer
+
+## Produits associés (related products) et tranches
+* Le fait d'ajouter des produits et services aux tranches de type commande interne, un conflit se créé avec les produits associés qui ne connait pas les tranches et ne peux donc pas ajouter les produits associés à celles-ci
+* Il faut donc neutraliser le déclenchement des produits associés qui pense que les tranches sont des commandes (même contexte, même $element = même hook)
+* Pour ce faire, dans actions_related_product.class.php, avant la sortie de la modale, vérifier si on est dans le tranches avec la présence d'un paramètre :
+            if(!GETPOST('trancheid')){
+            $this->dialog = $this->prepareDialog($object, $docid, $element);
+            }
