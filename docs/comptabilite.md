@@ -8,6 +8,20 @@
 *Ecrire les transactions dans le Grand Livre. Pour cela, aller sur chaque Journal, et cliquer sur le bouton "Enregistrer les opérations dans le Grand Livre".
 *Ajouter ou modifier les opérations existantes et générer des rapports et des exportations.
 
+## Saisie d'écriture comptable en banque
+* Passer par le compte bancaire et cliquer sur ajouter une nouvelle écriture
+* A ce moment, il est possible d'indiquer le code comptable de l'écriture
+* Attention, il ne sera plus possible de modifier le code comptable de l'écriture par après
+* Si besoin de le modifier, il faut supprimer l'écriture et la recréer complétement
+
+## Ecriture en banque et liaison avec un autre module
+* Par exemple, nous avons une ligne en banque de 400€ avec comme libellé "Taxe sociale et fiscale"
+* Ce libellé nous indique que l'opération a sans doute été enregsitrée depuis Facturation > dépenses spéciales > charges sociales et fiscales
+* Nous devons supprimer cette opération. 
+* Si on supprime directement la charge fiscle ou sociale, l'écriture en banque n'est pas supprimée (en tout cas jusqu'en v13.03)
+* Si on réouvre la charge fiscale ou sociale, et qu'on supprime le réglement, l'éciture en banque est bien supprimée (en tout cas en V9.04).
+* Ce problème fait l'objet d'[un ticket de bug](https://github.com/Dolibarr/dolibarr/issues/18201)
+
 ## Comptabilité de V9 à V13
 * Un module numérotation permet la numérotation des codes comptables clients/fournisseurs sur les lettres à partir de la V13. Ce module ne créé pas de doublon dans le cas de tiers au nom proche; Il travaille sur 7 caractères + 1 lettre. Il reste toujours possibile d'éditer manuellement le code comptable du tiers depuis sa fiche
 
