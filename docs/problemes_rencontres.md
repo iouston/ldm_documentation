@@ -92,3 +92,11 @@ input[type="checkbox"]:checked:before { content: 'x'; display: block; color: bla
             if(!GETPOST('trancheid')){
             $this->dialog = $this->prepareDialog($object, $docid, $element);
             }
+
+## Trouver les tranches et les commandes non expédiées sans consommation
+* SELECT c.ref as commande, t.ref as tranche, co.estim_qty as conso_prev
+FROM llx_tranche AS t
+LEFT JOIN llx_commande AS c ON t.fk_commande = c.rowid
+LEFT JOIN llx_consommation AS co ON t.rowid = co.fk_tranche
+WHERE co.estim_qty=0 AND c.fk_statut>0 AND c.fk_statut<2
+GROUP BY c.ref ASC
