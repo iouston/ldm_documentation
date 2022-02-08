@@ -179,7 +179,7 @@ En passant par le tiers
 
 ## Archiver – faire une autre version d'un devis
 
-* Lorsque un devis a été validé, de nouveaux boutons apparaissent. Parmi ces boutons, un bouton Archiver.
+CETTE RUBRIQUE N EST PLUS A JOUR ET DOIT ETRE REPRISE~~* Lorsque un devis a été validé, de nouveaux boutons apparaissent. Parmi ces boutons, un bouton Archiver.
 * Le bouton archiver permet de mettre en mémoire une ou plusieurs versions de devis de façon à proposer une nouvelle version du devis au client.
 > [!TIP]
 > Grâce à cette fonctionnalité, il ne doit pas y avoir de devis différents, correspondants au même chantier et au même client…
@@ -195,7 +195,7 @@ En passant par le tiers
 > * Le client me précise qu'il part finalement sur la version n°2
 > * Je sélectionne la version n°2 et après l'avoir visualisé, je la restaure
 > * Mon devis est remplacé par les éléments de la version n°2 mais je suis toujours sur la version n°4 du devis.
-> * Il faut donc être vigilant, pour ne pas écraser son travail.
+> * Il faut donc être vigilant, pour ne pas écraser son travail.~~
 
 ## Envoyer par mail un devis
 
@@ -311,7 +311,16 @@ Les notes ne doivent pas prendre le pas sur la gestion de la relation avec le cl
 * Sélectionner le contact concerné et le type de contact. En l'occurrence 'contact client suivi proposition'
 * Le type de contact permet d'adresser les différents documents à différentes personnes (facture, livraison, etc…)
 * Vous devez également paramétrer un contact de 'suivi proposition', généralement, il s'agit de l'agent commercial, et le contact 'etude_proposition'. Normalement ce contact se met automatiquement avec votre nom mais vous pouvez le modifier si nécessaire
+* **Il est important d'indiquer au niveau du devis un "responsable suivi proposition" car c'est cet élément qui permettra de calculer le chiffre d'affaire de chaque agent**
 * Vous pouvez également définir un contact par défaut au niveau de la fiche du tiers pour ne pas avoir à le faire à chaque fois. (cf. contact par défaut)
+
+## Masquer le contact de l'agent commercial
+
+* Certains client ne souhaitent pas voir apparaitre sur le devis l'agent commercial.
+* Pourtant, afin de connaitre le chiffre d'affaire de l'agent nous devons le placer en tant que "responsable suivi proposition" (cf. paragraphe précédent)
+* Une option est disponible sur la fiche du tiers 'Masquer l'agent' afin de solutionner ce problème.
+* Les pdf des devis et commande des tiers dont cette option est cochée ne verront plus le contact "responsable suivi proposition" et "responsable suivi commande"
+![Masquer_agent](_media/masquer_agent.jpg)
 
 ## Réaliser un devis, une commande, une facture en autoliquidation de TVA
 
