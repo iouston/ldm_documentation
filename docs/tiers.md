@@ -64,6 +64,8 @@ Il est possible de trouver des doublons dans les tiers. Dolibarr permet de fusio
 * Le module frais de gestion vérifiera automatiquement au moment de la validation du devis ou de la commande si les frais de gestion doivent être ajoutés
 * Dans le cas où vous souhaitez offrir les frais de gestion vous pouvez les ajouter mauellement et les réduire de 100%
 * Si votre client est dispensé des frais de gestion, il vous suffit de cocher la case 'Dispensé des frais de gestion' sur la fiche de votre client. Si il est dispensé des frais de gestion, les frais ne seront pas ajoutés à votre client
+* Chaque facture peut maintenant se voir exempter des frais de gestion (uniquement pour les personnes qui ont accès à la facture).
+* Attention, les frais de gestion ne sont pas remisables. Si sous souhaitez les offrir, il vous faut les ajouter manuellement et leur attribuer 100% de remise.
 > [!TIP]
 > Vous pouvez tout à fait ajouter les frais de gestion par vous même comme n'importe quel produit, ils ne seront pas ajoutés une seconde fois lors de la validation. Cela vous permet par exemple d'offrir les frais plus facilement
 > [!WARNING]
