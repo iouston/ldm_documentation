@@ -70,7 +70,23 @@ Depuis le menu horizontal haut, aller sur 'Tiers'
 * Depuis la fiche du tiers, allez dans l'onglet 'client'
 * Le montant d'encours est affiché sur la partie droite de la page
 * Il est possible d'accéder au détail de l'encours du client en cliquant sur 'Montant encours'
+* L'encours est calculé sur le HT des commandes validées et des factures impayées
+* L'encours est commun aux entreprises qui disposent du même numéro de SIREN
+* Le montant d'encours autorisé (assurance crédit) est défini au niveau de la maison mère
 ![Encours client](_media/encours_client.jpg)
+
+## Paramétrer l'assurance crédit pour maison mère et filiale
+* Sur chaque fiche de tiers, il exsite le champ 'Maison Mère'.
+* Indiquez dans le champ d'une entreprise filiale le nom de la maison mère
+* Vous pouvez relier autant de filiales que vous le souhaitez à une maison mère
+* N'indiquez pas de montant d'encours autorisé sur la fiche tiers des filiales
+* Indiquez le montant d'encours autorisé pour le groupe au niveau de la maison mère
+![Encours client](_media/parametrage_encours1.jpg)
+![Encours client](_media/parametrage_encours2.jpg)
+
+> [!WARNING]
+> Pour fonctionner à partir du siren, il faut que ce champ soit rempli. Mais seul le siret est obligatoire. Par contre comme le siret est composé du siren, il est possible de déduire cette information depuis là.
+> Pour cela, un bouton permettant de compléter les siren manquant à partir des siret est disponible dans la configuration du module
 
 ## Vérifier l'état des différents encours
 * Depuis le menu 'tiers'
