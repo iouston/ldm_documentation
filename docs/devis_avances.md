@@ -71,3 +71,11 @@ Dans ce cas, sans précision de votre part, le produit sera compté comme fourni
 * Sur l'écran d'édition du devis se trouve un bouton "conversion complète.
 * Ce bouton permet de transformer en produits catalogue, tous les produits libres d'un devis.
 * Cette fonction est donc à utiliser avec parcimonie, car sinon le risque est important de surcharger la base produit de cas particuliers…
+
+## Fusionner plusieurs devis en une seule commande
+* Depuis la liste des devis, sélectionner plusieurs devis d'un même tiers (obligatoire)
+* Dans la liste déroulante, des actions de masse, vous pouvez choisir de créer la commande (rubrique '--Fusion de devis ↓')
+* Un écran intermédiaire va vous demander de sélectionner le projet, la date et d'autres informations par rapport à ce qui est indiqué dans les devis de départ
+* Ensuite la commande est créée
+* Avant le détail de chaque devis, une ligne de texte est ajoutée pour rappeler la provenance des lignes
+![fusion_devis](_media/fusion_devis.png)
