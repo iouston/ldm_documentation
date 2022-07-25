@@ -16,7 +16,7 @@
 ## Ajouter un avenant dans une commande (marché)
 * Dans le cadre de marché, il est nécessaire d'ajouter des avenants dans une commande
 * Imaginons que nous avons une commande initiale et un avenant sous forme de devis
-* Dans la commande initiale, décaler d'un niveau toutes les localisations (la prochaine version du module aura un bouton qui permettra de faire cela en un clic)
+* Dans la commande initiale, décaler d'un niveau toutes les localisations (un bouton permet de faire cela en un clic)
 * Créer une localisation globale de niveau 1, qui englobe toute la commande et qu'on intitule 'Commande initiale'
 * Aller dans votre devis d'avenant, et faites la même chose, c'est à dire, décaler toutes les localisations d'un niveau et englober le tout dans une localisation de niveau 1 que vous appellez 'Avenant XXYY'
 * Le module sous total permet de copier tout un bloc vers un autre élément. Il est ainsi possible de copier un bloc d'un devis vers un devis, un bloc de commande vers une commande, etc...
