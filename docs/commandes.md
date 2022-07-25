@@ -1,4 +1,4 @@
- # Commandes et tranches
+# Commandes et tranches
  
 ## Créer une commande client
 * Lorsqu'un devis est validé et que vous l'avez cloturé au statut signé (cf. cloturer un devis(https://iouston.github.io/ldm_documentation/#/devis?id=cl%c3%b4turer-un-devis)
@@ -12,6 +12,20 @@
 * Si le type d'expédition est en enlèvement par le client, des précisions seront fournies au client
 * Selon les conditions de réglement définies, les moyens de paiement s'affichent ou non
 * Ces textes prédéfinies
+
+## Ajouter un avenant dans une commande (marché)
+* Dans le cadre de marché, il est nécessaire d'ajouter des avenants dans une commande
+* Imaginons que nous avons une commande initiale et un avenant sous forme de devis
+* Dans la commande initiale, décaler d'un niveau toutes les localisations (la prochaine version du module aura un bouton qui permettra de faire cela en un clic)
+* Créer une localisation globale de niveau 1, qui englobe toute la commande et qu'on intitule 'Commande initiale'
+* Aller dans votre devis d'avenant, et faites la même chose, c'est à dire, décaler toutes les localisations d'un niveau et englober le tout dans une localisation de niveau 1 que vous appellez 'Avenant XXYY'
+* Le module sous total permet de copier tout un bloc vers un autre élément. Il est ainsi possible de copier un bloc d'un devis vers un devis, un bloc de commande vers une commande, etc...
+* Transformer votre devis d'avenant en commande brouillon. 
+* Désormais, vous pouvez donc copier votre bloc 'avenant XXYY' vers votre commande commande initiale
+* Une fois cela fait, supprimer la commande provisoire de l'avenant
+* Enfin, rendez-vous sur le devis d'avenant et lier le depuis la boite 'objet lié' avec la commande initiale afin de conserver la tracabilité
+* C'est fin ! 
+
 
 ## Créer des tranches de commandes
 * Depuis une commande, rendez-vous sur l'onglet 'Tranche'
