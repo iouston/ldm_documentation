@@ -21,6 +21,7 @@
   - [Commissionnement](/commissions)
   - [Factures Fournisseur](/factures_fournisseurs)
   - [Planning général](/planning_general)
+  - [Planning BE](/planning_be)
   - [Fabrication](/fabrication)
   - [Stocks - MRP](/stocks_mrp)   
   - [Compta](/comptabilite)          
