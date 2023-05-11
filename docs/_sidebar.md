@@ -14,7 +14,7 @@
   - [Suivi relation client](/suivi_relation_clients)
   - [Projets](/projets)
   - [Devis](/devis)
-  - [Commandes](/commandes)
+  - [Commandes et tranches](/commandes)
   - [Commandes Fournisseur](/commandes_fournisseur)
   - [Expéditions](/expeditions)
   - [Factures](/factures)

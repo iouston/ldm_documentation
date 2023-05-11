@@ -26,11 +26,6 @@
 * Enfin, rendez-vous sur le devis d'avenant et lier le depuis la boite 'objet lié' avec la commande initiale afin de conserver la tracabilité
 * C'est fin ! 
 
-## Statuts des tranches de commande
-* Les tranches de commande vont passer par plusieurs statuts :
-* Brouillon → la tranche est cours de modification en interne
-* A traiter → La tranche doit être traitée par le bureau d'étude
-* Mise en plan → Le bureau d'étude est en train de dessiner les plans de la commande
 
 ## Créer des tranches de commandes
 * Depuis une commande, rendez-vous sur l'onglet 'Tranche'
@@ -53,6 +48,8 @@
 * Pour cela, ajouter le produit dans une tranche
 * Cliquer sur quantité et modifier la quantité. Par exemple, j'ai 10 cabines, et je sélectionne 4 dans le champ de quantité.
 * Un produit cabine avec une quantité de 6 sera remise dans la zone 'A trancher'
+
+## 	Modifier l'ordre des tranches de commande
 
 ## Modifier le temps de fabrication d'une tranche de commande
 * Le temps de fabrication est calculé depuis le champ 'temps de fabrication' de chaque produit

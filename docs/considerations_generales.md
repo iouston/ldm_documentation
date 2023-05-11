@@ -21,6 +21,10 @@
 * Créer une facture (ou plus si besoin)
 * Encaisser le règlement
 
+## Trucs et astuces
+* En cliquant sur un lien en cliquant avec la molette de la souris (clic molette), le navigateur ouvre le lien dans un nouvel onglet. C'est vraiement pratique pour garder par exemple une liste d'un côté et avoir le détail d'une information à côté.
+* Sur de grandes listes où vous avez une barre de défilement horizontal, vous pouvez maintenir la touche schift (majuscule) et utiliser votre molette de souris. La combinaison des deux, fait défiler la page à l'horizontal. Pour les utilisateurs de mac, remplacer la touche maj par la touche cmd.
+
 ## Utilisation des filtres dans dolibarr
 * Sur des listes affichées par dolibarr vous pouvez utiliser plusieurs filtres. L'utilisation de plusieurs filtres est compris par le logiciel comme ET.
 **Par exemple**, si sur la liste des tiers je mets un filtre '54000' dans code postal et 'Damien Hailant' dans commercial, le logiciel ne me sortira que la liste des tiers du 54000 ET dont Damien est le commercial
