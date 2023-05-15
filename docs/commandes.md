@@ -28,9 +28,17 @@
 
 ## Statuts des tranches de commande
 * Les tranches de commande vont passer par plusieurs statuts :
-* Brouillon → la tranche est cours de modification en interne
-* A traiter → La tranche doit être traitée par le bureau d'étude
-* Mise en plan → Le bureau d'étude est en train de dessiner les plans de la commande
+* Brouillon (gris) → la tranche est cours de modification en interne
+* A traiter (violet) → La commande est enregistrée, le BE sait qu’elle est à faire dans la semaine de production, mais il manque des éléments pour pouvoir la dessiner. 
+* Mise en plan (rouge) → La commande est complète pour que le BE puisse la dessiner. Ce n’est pas pour autant que le BE est en train de la dessiner.
+* Validation client (jaune) → Le bureau d'étude à envoyé les plans au client et attend la validation des plans par le client 
+* Mise au point (bleu clair) → La commande a déjà été dessinée une fois et le retour client nécessite modification et ou mise au point avec lui. Y compris nouvelle modification client.
+* A décrypter (bleu foncé) → La commande a été validée par le client, préparation du BE pour mise en fabrication
+* Décryptée (couleur noire) → Dossier préparé, prêt à partir en partir en fabrication
+* Fabrication (vert clair) → La tranche est à l'atelier, en attente ou en cours de fabrication
+* Fabriquée (vert foncé) → La tranche a été fabriquée mais est encore à l'atelier
+* Envoyée (vert foncé) → La tranche a été livrée ou retirée par le client
+* Facturée (vert gris) → La tranche a été facturée
 
 ## Créer des tranches de commandes
 * Depuis une commande, rendez-vous sur l'onglet 'Tranche'
